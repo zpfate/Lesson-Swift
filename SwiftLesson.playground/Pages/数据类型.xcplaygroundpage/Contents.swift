@@ -7,7 +7,7 @@
 let age: Int
 var num = 10
 num+=20
-let sum = num
+//let sum = num
 
 
 /*:  ## 标识符
@@ -17,3 +17,33 @@ let sum = num
 
 
 
+let a = 10
+let b = 20
+let sum = a + b
+let average = sum / 2
+let average2 = sum >> 1
+
+/// 文档注释
+/// 求和
+///
+/// 讲两个整数相加求和
+///
+/// - Parameter v1: 第一个整数
+/// - Parameter v2: 第二个整数
+/// - Returns: 2个数的和
+///
+/// - Note: 传入两个整数即可[批注]
+///
+func sum(v1: Int, v2: Int) -> Int {v1 + v2}
+
+sum(v1: 10, v2: 20)
+
+
+/// separator: 间隔符
+print("1", "2", "3", separator: "", terminator: "\n")
+
+var number = 10;
+func add(_ num: inout Int) -> Void {
+    num += 1
+}
+add(&number)
