@@ -12,6 +12,7 @@ public class ListNode {
 
 class Solution {
     
+
     /// 给定一个整数数组 nums 和一个整数目标值 target，请你在该数组中找出 和为目标值 target  的那 两个 整数，并返回它们的数组下标。
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
         
@@ -21,11 +22,9 @@ class Solution {
             if nums.contains(minus) && firstIndex != index {
                 return [index, firstIndex!]
             }
-            
         }
         return []
     }
-    
     
     /// 实现一个算法，确定一个字符串 s 的所有字符是否全都不同。
     func isUnique(_ astr: String) -> Bool {
