@@ -8,12 +8,11 @@ public class ListNode {
     public init(_ val: Int, _ next: ListNode?) { self.val = val; self.next = next;}
 }
  
+// 给定一个整数数组 nums 和一个整数目标值 target，请你在该数组中找出 和为目标值 target  的那 两个 整数，并返回它们的数组下标。
 
 
 class Solution {
     
-
-    /// 给定一个整数数组 nums 和一个整数目标值 target，请你在该数组中找出 和为目标值 target  的那 两个 整数，并返回它们的数组下标。
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
         
         for (index, value) in nums.enumerated() {
@@ -25,6 +24,32 @@ class Solution {
         }
         return []
     }
+    
+    
+    func twoSum2(_ nums: [Int], _ target: Int) -> [Int] {
+        
+        // 创建字典, 数组值为key, 下标为value
+        var dict = [Int : Int]()
+        for (index, value) in nums.enumerated() {
+            dict[value] = index;
+        }
+        
+        // 遍历数组
+        for (index, value) in nums.enumerated() {
+            
+            // 这里target - index为差值
+            if let result = dict[target - value] {
+                // 如果差值为key 可以从字典里取出值 则存在
+                if index != result {
+                    return [index, result];
+                }
+            }
+        }
+        return []
+        
+    }
+    
+    
     
     /// 实现一个算法，确定一个字符串 s 的所有字符是否全都不同。
     func isUnique(_ astr: String) -> Bool {
@@ -45,10 +70,10 @@ class Solution {
      请你将两个数相加，并以相同形式返回一个表示和的链表。
      你可以假设除了数字 0 之外，这两个数都不会以 0 开头。
      */
-    func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
-
-
-    }
+//    func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
+//
+//
+//    }
     
     func getListNodeCount(_ listNode: ListNode?) -> Int {
         
@@ -62,6 +87,7 @@ class Solution {
     }
 
 }
+
 
 
 let s = Solution();
