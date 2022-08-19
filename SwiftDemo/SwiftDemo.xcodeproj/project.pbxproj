@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B1A82F728AF9082004EC7E9 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1A82F628AF9082004EC7E9 /* Solution.swift */; };
 		5B88F88027698B4300BFF650 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B88F87F27698B4300BFF650 /* main.swift */; };
 		5B88F88727698B8400BFF650 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B88F88627698B8400BFF650 /* Animal.swift */; };
 		5B88F88927698C2000BFF650 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B88F88827698C2000BFF650 /* Vehicle.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5B1A82F628AF9082004EC7E9 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
 		5B88F87C27698B4300BFF650 /* SwiftDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B88F87F27698B4300BFF650 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		5B88F88627698B8400BFF650 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				5B88F87F27698B4300BFF650 /* main.swift */,
 				5B88F88627698B8400BFF650 /* Animal.swift */,
 				5B88F88827698C2000BFF650 /* Vehicle.swift */,
+				5B1A82F628AF9082004EC7E9 /* Solution.swift */,
 				5B88F88A27698CC900BFF650 /* Protocol */,
 			);
 			path = SwiftDemo;
@@ -142,6 +145,7 @@
 			files = (
 				5B88F88E27698DA200BFF650 /* Eagle.swift in Sources */,
 				5B88F88027698B4300BFF650 /* main.swift in Sources */,
+				5B1A82F728AF9082004EC7E9 /* Solution.swift in Sources */,
 				5B88F88727698B8400BFF650 /* Animal.swift in Sources */,
 				5B88F88927698C2000BFF650 /* Vehicle.swift in Sources */,
 				5B88F88C27698CE500BFF650 /* Flyable.swift in Sources */,

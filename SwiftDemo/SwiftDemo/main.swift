@@ -10,6 +10,11 @@ import Foundation
 
 print("Hello, World!")
 
+let v1 = ListNode(2, ListNode(3, ListNode(6)))
+let v2 = ListNode(9, ListNode(3, ListNode(6)))
+
+
+Solution().addTwoNumbers(v1 , v2)
 
 let bird = Bird()
 bird.fly()
