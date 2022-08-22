@@ -10,8 +10,8 @@ import Foundation
 
 print("Hello, World!")
 
-let v1 = ListNode(2, ListNode(3, ListNode(6)))
-let v2 = ListNode(9, ListNode(3, ListNode(6)))
+let v1 = ListNode(2, ListNode(4, ListNode(3)))
+let v2 = ListNode(5, ListNode(6, ListNode(4)))
 
 
 Solution().addTwoNumbers(v1 , v2)

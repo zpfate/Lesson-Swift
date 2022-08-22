@@ -24,11 +24,13 @@ class Solution {
     
     func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
         
-       
+
        var node1 = l1
        var node2 = l2
        
         var valueNode = ListNode()
+        var resultNode = valueNode
+
         var enable = false
         while node1?.next != nil || node2?.next != nil {
             
@@ -45,12 +47,13 @@ class Solution {
             node2 = node2?.next
             
             valueNode.next = ListNode();
-            valueNode = valueNode.next!;
-            
+            if (valueNode.next != nil) {
+                   valueNode = valueNode.next!;
+                   }
            
             
         }
-        return valueNode
+        return resultNode
     }
     
 //    func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {

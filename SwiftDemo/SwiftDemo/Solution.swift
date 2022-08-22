@@ -25,30 +25,40 @@ class Solution {
        
        var node1 = l1
        var node2 = l2
+       /*
+        let v1 = ListNode(2, ListNode(3, ListNode(6)))
+        let v2 = ListNode(9, ListNode(3, ListNode(6)))
+        */
        
-        var valueNode = ListNode()
-        var enable = false
-        while node1?.next != nil || node2?.next != nil {
+        var node1 = l1
+        var node2 = l2
+        
+         var valueNode = ListNode()
+         var resultNode = valueNode
+
+         var enable = false
+         while node1?.next != nil || node2?.next != nil {
+             
+             let sum = (node1?.val ?? 0) + (node2?.val ?? 0) + (enable ? 1 : 0);
+             if sum > 10 {
+                 enable = true
+                 valueNode.val = sum - 10
+             } else {
+                 enable = false
+                 valueNode.val = sum;
+             }
+             
+             node1 = node1?.next
+             node2 = node2?.next
+             
+             valueNode.next = ListNode();
+             if (valueNode.next != nil) {
+                    valueNode = valueNode.next!;
+                    }
             
-            let sum = (node1?.val ?? 0) + (node2?.val ?? 0) + (enable ? 1 : 0);
-            if sum > 10 {
-                enable = true
-                valueNode.val = sum - 10
-            } else {
-                enable = false
-                valueNode.val = sum;
-            }
-            
-            node1 = node1?.next
-            node2 = node2?.next
-            
-            valueNode.next = ListNode();
-            valueNode = valueNode.next!;
-            
-           
-            
-        }
-        return valueNode.next
+             
+         }
+         return resultNode
     }
     
 //    func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
