@@ -23,18 +23,14 @@ class Solution2 {
     
     func addTwoNumbers(_ l1: inout ListNode?, _ l2: inout ListNode?) -> ListNode? {
         
-
-        let resultNode = ListNode();
-        
+        var resultNode = ListNode();
         let firstNode = resultNode;
         
-        
+        /// 进制位是否+1
         var binary = false;
         
-        
         /// 如果L1 L2的next有值
-        while l1?.next != nil || l2?.next != nil  {
-            
+        while l1?.val != nil || l2?.val != nil  {
             /// 相同位之和
             let sum = l1!.val + l2!.val + (binary ? 1 : 0)
             
@@ -45,46 +41,81 @@ class Solution2 {
                 binary = false;
                 resultNode.val = sum
             }
-            
+            if l1?.next != nil || l2?.next != nil {
+                resultNode.next = ListNode()
+                resultNode = resultNode.next!
+            }
             l1 = l1?.next;
             l2 = l2?.next;
-            
-            resultNode.next = ListNode()
         }
         return firstNode
-  
     }
     
     
-    func twoSums(_ l1:  ListNode?, _ l2: ListNode?) -> ListNode? {
-        var node1 = l1
-        var node2 = l2
+    func addTwoNumbers2(_ l1:  ListNode?, _ l2: ListNode?) -> ListNode? {
         
-         var valueNode = ListNode()
-         let resultNode = valueNode
-
-         var enable = false
-         
-         while node1?.next != nil || node2?.next != nil {
-             
-             let sum = (node1?.val ?? 0) + (node2?.val ?? 0) + (enable ? 1 : 0);
-             if sum > 10 {
-                 enable = true
-                 valueNode.val = sum - 10
-             } else {
-                 enable = false
-                 valueNode.val = sum;
-             }
-             
-             node1 = node1?.next
-             node2 = node2?.next
-             
-             valueNode.next = ListNode();
-             if (valueNode.next != nil) {
-                 valueNode = valueNode.next!;
-             }
-         }
-         return resultNode
+        var link1 = l1
+        var link2 = l2
+        
+        let result = ListNode()
+        
+        var current = result
+        
+        // 相同进制位之和
+        var sum = 0
+        
+        while link1 != nil || link2 != nil {
+            
+            /// 强制解包
+            if let link = link1 {
+                sum += link.val
+                link1 = link.next
+            }
+            
+            if let link = link2 {
+                sum += link.val
+                link2 = link.next
+            }
+            
+            // 给下一个node赋值为除以10的余数 等价于sum-10
+            current.next = ListNode(sum % 10)
+            /// 取出是是否进一位
+            sum /= 10
+            current = current.next!
+        }
+        
+        if (sum > 0) {
+            current.next = ListNode(sum % 10)
+        }
+        
+        return result.next
+        
     }
+    
+    /// 递归方案
+//    func addTwoNumbers3(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
+//
+//        if l1 == nil && l2 == nil {
+//
+//            return nil
+//
+//        } else {
+//            var sum = (l1?.val ?? 0) + (l2?.val ?? 0)
+//            if sum > 9 {
+//                // 进1
+//                // 当时想的比较简单，直接在任意链表加上1(即：sum / 10)就完事了
+//                l1?.next = addTwoNumbers(l1?.next, ListNode(1))
+//                // 这好吗？这不好
+//                // l1?.next为[9,9,9,9]这样的数据的话又会递归多次加1
+//                // 还修改了l1的数据
+//
+//                // 取余
+//                sum = sum % 10
+//                // sum = sum - 10  我jio的也可以
+//            }
+//            return ListNode(sum, addTwoNumbers(l1?.next, l2?.next))
+//        }
+//
+//    }
     
 }
