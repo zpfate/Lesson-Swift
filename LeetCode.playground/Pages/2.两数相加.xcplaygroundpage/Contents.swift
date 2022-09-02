@@ -29,9 +29,10 @@ class Solution {
        var node2 = l2
        
         var valueNode = ListNode()
-        var resultNode = valueNode
+        let resultNode = valueNode
 
         var enable = false
+        
         while node1?.next != nil || node2?.next != nil {
             
             let sum = (node1?.val ?? 0) + (node2?.val ?? 0) + (enable ? 1 : 0);
@@ -48,10 +49,8 @@ class Solution {
             
             valueNode.next = ListNode();
             if (valueNode.next != nil) {
-                   valueNode = valueNode.next!;
-                   }
-           
-            
+                valueNode = valueNode.next!;
+            }
         }
         return resultNode
     }
@@ -79,8 +78,8 @@ class Solution {
 }
 
 
-let v1 = ListNode(2, ListNode(3, ListNode(6)))
-let v2 = ListNode(9, ListNode(3, ListNode(6)))
+let v1 = ListNode(2, ListNode(4, ListNode(3)))
+let v2 = ListNode(6, ListNode(6, ListNode(4)))
 
 
 Solution().addTwoNumbers(v1 , v2)
