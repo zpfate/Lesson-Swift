@@ -11,10 +11,12 @@ print("Hello, World!")
 
 /// ********排序算法 ******
 var arr = [10, 2, 5, 3, 6, 1]
-BubbleSort.sort(arr)
-print("=============================")
-BubbleSort.sort2(arr)
+//BubbleSort.sort(arr)
+//print("=============================")
+//BubbleSort.sort2(arr)
+//print("=============================")
 
+print(InsertSort.sort(arr))
 
 
 var v1: ListNode? = ListNode(9, ListNode(9, ListNode(9, ListNode(9, ListNode(9, ListNode(9))))))

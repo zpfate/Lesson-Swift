@@ -9,11 +9,19 @@ import Foundation
 
 class InsertSort {
     
-//    func sort(_ list: [Int]) -> [Int] {
-//        
-//        for i in 1..<list.count {
-//
-//        }
-//        
-//    }
+  class func sort(_ list: [Int]) -> [Int] {
+        
+      var arr:[Int] = [list[0]]
+        for i in 1..<list.count {
+            let value = list[i]
+            for j in (0..<i) {
+                if value < arr[j] {
+                    arr.insert(value, at: j)
+                    break
+                }
+            }
+            printSortArr(arr, i)
+        }
+      return arr
+    }
 }
