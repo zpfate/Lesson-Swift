@@ -14,15 +14,8 @@ var v1: ListNode? = ListNode(9, ListNode(9, ListNode(9, ListNode(9, ListNode(9, 
 var v2: ListNode? = ListNode(9, ListNode(9, ListNode(9, ListNode(9))))
 
 
-var node = Solution2().twoSums(v1 , v2)
- 
-while node != nil {
-    
-    
-    print(node!.val)
-        node = node!.next
-}
-    
+Solution3().lengthOfLongestSubstring("dvdf")
+
 
 
 

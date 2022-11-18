@@ -13,10 +13,6 @@ public class ListNode {
 
 class Solution {
     
-
-    
-    
-    
     /// 实现一个算法，确定一个字符串 s 的所有字符是否全都不同。
     func isUnique(_ astr: String) -> Bool {
         let characters = Set(astr)

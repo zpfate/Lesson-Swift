@@ -24,17 +24,12 @@ class Solution {
     
     func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
         
-
        var node1 = l1
        var node2 = l2
-       
         var valueNode = ListNode()
         let resultNode = valueNode
-
         var enable = false
-        
         while node1?.next != nil || node2?.next != nil {
-            
             let sum = (node1?.val ?? 0) + (node2?.val ?? 0) + (enable ? 1 : 0);
             if sum > 10 {
                 enable = true
@@ -44,13 +39,12 @@ class Solution {
                 valueNode.val = sum;
             }
             
+            /// 取出下一轮的节点
             node1 = node1?.next
             node2 = node2?.next
             
-            valueNode.next = ListNode();
-            if (valueNode.next != nil) {
-                valueNode = valueNode.next!;
-            }
+            valueNode.next = ListNode()
+            valueNode = valueNode.next!
         }
         return resultNode
     }
@@ -65,15 +59,10 @@ class Solution {
 //
 //        var sum = 0;
 //        for (index, value) in list.enumerated() {
-//
 //            let current = 10^index
-//
 //            sum = (value % current) * current + (value / current) * current
-//
 //        }
-//
 //        return sum
-//
 //    }
 }
 
