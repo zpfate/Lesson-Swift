@@ -14,6 +14,10 @@
 		5B56927B292736E500DB792C /* Solution4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B56927A292736E500DB792C /* Solution4.swift */; };
 		5B56927E292751E300DB792C /* Solution5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B56927D292751E300DB792C /* Solution5.swift */; };
 		5B56928129275A0300DB792C /* StringExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B56928029275A0300DB792C /* StringExample.swift */; };
+		5B5692842927739400DB792C /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5692832927739400DB792C /* BubbleSort.swift */; };
+		5B5692862927835E00DB792C /* ShellSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5692852927835E00DB792C /* ShellSort.swift */; };
+		5B5692882927847900DB792C /* InsertSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5692872927847900DB792C /* InsertSort.swift */; };
+		5B56928A292784F000DB792C /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B569289292784F000DB792C /* Common.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +41,10 @@
 		5B56927A292736E500DB792C /* Solution4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution4.swift; sourceTree = "<group>"; };
 		5B56927D292751E300DB792C /* Solution5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution5.swift; sourceTree = "<group>"; };
 		5B56928029275A0300DB792C /* StringExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExample.swift; sourceTree = "<group>"; };
+		5B5692832927739400DB792C /* BubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
+		5B5692852927835E00DB792C /* ShellSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellSort.swift; sourceTree = "<group>"; };
+		5B5692872927847900DB792C /* InsertSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertSort.swift; sourceTree = "<group>"; };
+		5B569289292784F000DB792C /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,13 +77,14 @@
 		5B36B20228C1902C00E14D15 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				5B36B20328C1902C00E14D15 /* main.swift */,
+				5B5692822927737700DB792C /* 排序算法 */,
 				5B56927F292759E400DB792C /* 常用方法总结 */,
 				5B36B20A28C190D400E14D15 /* 1.两数之和 */,
 				5B36B20D28C1915300E14D15 /* 2.两数相加 */,
 				5B5692762927290900DB792C /* 3.无重复字符的最长子串 */,
 				5B5692792927367C00DB792C /* 4.寻找两个正序数组的中位数 */,
 				5B56927C292751CC00DB792C /* 5.最长回文子串 */,
-				5B36B20328C1902C00E14D15 /* main.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -126,6 +135,17 @@
 				5B56928029275A0300DB792C /* StringExample.swift */,
 			);
 			path = "常用方法总结";
+			sourceTree = "<group>";
+		};
+		5B5692822927737700DB792C /* 排序算法 */ = {
+			isa = PBXGroup;
+			children = (
+				5B5692872927847900DB792C /* InsertSort.swift */,
+				5B5692832927739400DB792C /* BubbleSort.swift */,
+				5B5692852927835E00DB792C /* ShellSort.swift */,
+				5B569289292784F000DB792C /* Common.swift */,
+			);
+			path = "排序算法";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,11 +206,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B5692882927847900DB792C /* InsertSort.swift in Sources */,
 				5B56927E292751E300DB792C /* Solution5.swift in Sources */,
 				5B36B20C28C1911700E14D15 /* Solution1.swift in Sources */,
 				5B36B20428C1902C00E14D15 /* main.swift in Sources */,
+				5B56928A292784F000DB792C /* Common.swift in Sources */,
 				5B5692782927293200DB792C /* Solution3.swift in Sources */,
 				5B56927B292736E500DB792C /* Solution4.swift in Sources */,
+				5B5692842927739400DB792C /* BubbleSort.swift in Sources */,
+				5B5692862927835E00DB792C /* ShellSort.swift in Sources */,
 				5B36B20F28C1917C00E14D15 /* Solution2.swift in Sources */,
 				5B56928129275A0300DB792C /* StringExample.swift in Sources */,
 			);
