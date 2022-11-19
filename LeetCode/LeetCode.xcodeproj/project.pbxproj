@@ -18,6 +18,7 @@
 		5B5692862927835E00DB792C /* ShellSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5692852927835E00DB792C /* ShellSort.swift */; };
 		5B5692882927847900DB792C /* InsertSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5692872927847900DB792C /* InsertSort.swift */; };
 		5B56928A292784F000DB792C /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B569289292784F000DB792C /* Common.swift */; };
+		5BE7DF942928CD0D00FFFB3B /* SelectSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE7DF932928CD0D00FFFB3B /* SelectSort.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +46,7 @@
 		5B5692852927835E00DB792C /* ShellSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellSort.swift; sourceTree = "<group>"; };
 		5B5692872927847900DB792C /* InsertSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertSort.swift; sourceTree = "<group>"; };
 		5B569289292784F000DB792C /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		5BE7DF932928CD0D00FFFB3B /* SelectSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSort.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				5B5692872927847900DB792C /* InsertSort.swift */,
+				5BE7DF932928CD0D00FFFB3B /* SelectSort.swift */,
 				5B5692832927739400DB792C /* BubbleSort.swift */,
 				5B5692852927835E00DB792C /* ShellSort.swift */,
 				5B569289292784F000DB792C /* Common.swift */,
@@ -213,6 +216,7 @@
 				5B56928A292784F000DB792C /* Common.swift in Sources */,
 				5B5692782927293200DB792C /* Solution3.swift in Sources */,
 				5B56927B292736E500DB792C /* Solution4.swift in Sources */,
+				5BE7DF942928CD0D00FFFB3B /* SelectSort.swift in Sources */,
 				5B5692842927739400DB792C /* BubbleSort.swift in Sources */,
 				5B5692862927835E00DB792C /* ShellSort.swift in Sources */,
 				5B36B20F28C1917C00E14D15 /* Solution2.swift in Sources */,

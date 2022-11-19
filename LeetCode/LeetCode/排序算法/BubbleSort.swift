@@ -7,6 +7,8 @@
 
 import Foundation
 /// 冒泡排序
+/// 时间复杂度o(n²)
+/// 稳定
 class BubbleSort {
     
     class func sort(_ arr: [Int]) -> [Int] {

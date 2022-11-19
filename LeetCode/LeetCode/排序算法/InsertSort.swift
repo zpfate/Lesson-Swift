@@ -8,7 +8,9 @@
 import Foundation
 
 /// 插入排序
-/// 时间复杂度o(n²)
+/// 锚定第一个元素,将后面无序区的元素插入到有序区合适的位置
+/// 时间复杂度O(n²)
+/// 稳定
 class InsertSort {
 
   class func sort(_ list: [Int]) -> [Int] {
