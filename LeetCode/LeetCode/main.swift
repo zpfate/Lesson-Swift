@@ -10,7 +10,7 @@ import Foundation
 print("Hello, World!")
 
 /// ********排序算法 ******
-var arr = [10, 2, 5, 3, 6, 1]
+fileprivate var arr = [10, 2, 5, 3, 6, 1]
 //BubbleSort.sort(arr)
 //print("=============================")
 //BubbleSort.sort2(arr)

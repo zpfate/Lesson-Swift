@@ -7,21 +7,25 @@
 
 import Foundation
 
+/// 插入排序
+/// 时间复杂度o(n²)
 class InsertSort {
-    
+
   class func sort(_ list: [Int]) -> [Int] {
-        
-      var arr:[Int] = [list[0]]
+      var tempArr = list
+      /// 第一个作为有序的 作为对比
         for i in 1..<list.count {
             let value = list[i]
-            for j in (0..<i) {
-                if value < arr[j] {
-                    arr.insert(value, at: j)
-                    break
-                }
+            var j = i - 1
+            /// 与前面的有序数组对比
+            while j >= 0 && value < tempArr[j] {
+                tempArr[j + 1] = tempArr[j]
+                j -= 1
             }
-            printSortArr(arr, i)
+            /// 将当前对比的数字放在正确的位置
+            tempArr[j+1] = value
+            print_array(tempArr, i)
         }
-      return arr
+      return tempArr
     }
 }

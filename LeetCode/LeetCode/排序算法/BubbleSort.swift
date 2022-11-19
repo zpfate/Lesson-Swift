@@ -6,13 +6,11 @@
 //
 
 import Foundation
-
+/// 冒泡排序
 class BubbleSort {
     
     class func sort(_ arr: [Int]) -> [Int] {
-        
         var list = arr
-        
         /// 外层循环 i表示扫描元素的个数
         /// i > 1 只有一个元素的时候必然是有序的
         for i in (1...list.count).reversed() {
@@ -22,9 +20,8 @@ class BubbleSort {
                     list.swapAt(j, j-1)
                     swapped = true
                 }
-                printSortArr(list, j)
+                print_array(list, j)
             }
-
             if !swapped {
                 break /// 如果没有发生交换结束循环
             }
@@ -33,14 +30,13 @@ class BubbleSort {
     }
     
     class func sort2(_ arr: [Int]) -> [Int] {
-        
         var list = arr
         for i in 0..<list.count {
             for j in 0..<list.count {
                 if list[i] < list[j] {
                     list.swapAt(i, j)
                 }
-                printSortArr(list, j+1)
+                print_array(list, j+1)
             }
         }
         return list

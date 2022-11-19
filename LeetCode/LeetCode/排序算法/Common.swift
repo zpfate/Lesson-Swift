@@ -7,7 +7,7 @@
 
 import Foundation
 
-func printSortArr(_ list: [Int], _ times: Int) -> Void {
+func print_array(_ list: [Int], _ times: Int) -> Void {
     
     print("第\(times)轮:", terminator: " ")
     for element in list {
