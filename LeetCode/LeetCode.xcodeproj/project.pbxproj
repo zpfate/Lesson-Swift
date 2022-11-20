@@ -19,6 +19,8 @@
 		5B5692882927847900DB792C /* InsertSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5692872927847900DB792C /* InsertSort.swift */; };
 		5B56928A292784F000DB792C /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B569289292784F000DB792C /* Common.swift */; };
 		5BE7DF942928CD0D00FFFB3B /* SelectSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE7DF932928CD0D00FFFB3B /* SelectSort.swift */; };
+		5BE7DF972929BEA300FFFB3B /* Solution9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE7DF962929BEA300FFFB3B /* Solution9.swift */; };
+		5BE7DF9A292A567C00FFFB3B /* Solution13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE7DF99292A567C00FFFB3B /* Solution13.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,6 +49,8 @@
 		5B5692872927847900DB792C /* InsertSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertSort.swift; sourceTree = "<group>"; };
 		5B569289292784F000DB792C /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		5BE7DF932928CD0D00FFFB3B /* SelectSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSort.swift; sourceTree = "<group>"; };
+		5BE7DF962929BEA300FFFB3B /* Solution9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution9.swift; sourceTree = "<group>"; };
+		5BE7DF99292A567C00FFFB3B /* Solution13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution13.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,14 +83,16 @@
 		5B36B20228C1902C00E14D15 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				5BE7DF98292A565F00FFFB3B /* 13.罗马数字转整数 */,
 				5B36B20328C1902C00E14D15 /* main.swift */,
-				5B5692822927737700DB792C /* 排序算法 */,
-				5B56927F292759E400DB792C /* 常用方法总结 */,
 				5B36B20A28C190D400E14D15 /* 1.两数之和 */,
 				5B36B20D28C1915300E14D15 /* 2.两数相加 */,
 				5B5692762927290900DB792C /* 3.无重复字符的最长子串 */,
 				5B5692792927367C00DB792C /* 4.寻找两个正序数组的中位数 */,
 				5B56927C292751CC00DB792C /* 5.最长回文子串 */,
+				5BE7DF952929BE9100FFFB3B /* 9.回文数 */,
+				5B56927F292759E400DB792C /* 常用方法总结 */,
+				5B5692822927737700DB792C /* 排序算法 */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -151,6 +157,22 @@
 			path = "排序算法";
 			sourceTree = "<group>";
 		};
+		5BE7DF952929BE9100FFFB3B /* 9.回文数 */ = {
+			isa = PBXGroup;
+			children = (
+				5BE7DF962929BEA300FFFB3B /* Solution9.swift */,
+			);
+			path = "9.回文数";
+			sourceTree = "<group>";
+		};
+		5BE7DF98292A565F00FFFB3B /* 13.罗马数字转整数 */ = {
+			isa = PBXGroup;
+			children = (
+				5BE7DF99292A567C00FFFB3B /* Solution13.swift */,
+			);
+			path = "13.罗马数字转整数";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -212,8 +234,10 @@
 				5B5692882927847900DB792C /* InsertSort.swift in Sources */,
 				5B56927E292751E300DB792C /* Solution5.swift in Sources */,
 				5B36B20C28C1911700E14D15 /* Solution1.swift in Sources */,
+				5BE7DF972929BEA300FFFB3B /* Solution9.swift in Sources */,
 				5B36B20428C1902C00E14D15 /* main.swift in Sources */,
 				5B56928A292784F000DB792C /* Common.swift in Sources */,
+				5BE7DF9A292A567C00FFFB3B /* Solution13.swift in Sources */,
 				5B5692782927293200DB792C /* Solution3.swift in Sources */,
 				5B56927B292736E500DB792C /* Solution4.swift in Sources */,
 				5BE7DF942928CD0D00FFFB3B /* SelectSort.swift in Sources */,
