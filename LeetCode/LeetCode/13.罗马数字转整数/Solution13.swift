@@ -47,7 +47,6 @@ class Solution13 {
         return sum
     }
     
-    
     class func getValue(_ char: Character) -> Int {
         switch char {
         case "I":
