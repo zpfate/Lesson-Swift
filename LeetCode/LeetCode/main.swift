@@ -26,9 +26,10 @@ var v2: ListNode? = ListNode(9, ListNode(9, ListNode(9, ListNode(9))))
 //Solution3.lengthOfLongestSubstring("dvdf")
 
 
-print(Solution9.isPalindrome(121))
+//print(Solution9.isPalindrome(121))
 
-
+let result = Solution13.romanToInt("MDCCCLXXXIV")
+print(result)
 
 
 
