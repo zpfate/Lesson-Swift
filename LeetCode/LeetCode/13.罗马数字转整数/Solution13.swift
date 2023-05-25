@@ -22,32 +22,25 @@ import Foundation
  */
 class Solution13 {
     /// 'LVIII'
-    class func romanToInt(_ s: String) -> Int {
+    func romanToInt(_ s: String) -> Int {
         
         var sum = 0
         var preValue = 0
-        var temp = 0
         for c in s {
             /// 获取当前值
             let currentValue = getValue(c)
             
-            if currentValue > preValue && preValue != 0 && (currentValue == 1 || currentValue == 10 || currentValue == 100) {
-                sum -= temp
-                temp = 0
-                sum += currentValue
-            } else {
-                    temp += currentValue
-              
+            sum += currentValue
+            if (currentValue > preValue) {
+               sum -= 2 * preValue
             }
-            /// 满足六种情况
+            
             preValue = currentValue
         }
-        
-        sum += temp
         return sum
     }
     
-    class func getValue(_ char: Character) -> Int {
+    func getValue(_ char: Character) -> Int {
         switch char {
         case "I":
             return 1
