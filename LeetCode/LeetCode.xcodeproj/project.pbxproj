@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B82BCAB2A1F5DDB00A4E716 /* Solution14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B82BCAA2A1F5DDB00A4E716 /* Solution14.swift */; };
 		5B36B20428C1902C00E14D15 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B36B20328C1902C00E14D15 /* main.swift */; };
 		5B36B20C28C1911700E14D15 /* Solution1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B36B20B28C1911700E14D15 /* Solution1.swift */; };
 		5B36B20F28C1917C00E14D15 /* Solution2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B36B20E28C1917C00E14D15 /* Solution2.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4B82BCAA2A1F5DDB00A4E716 /* Solution14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution14.swift; sourceTree = "<group>"; };
 		5B36B20028C1902C00E14D15 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B36B20328C1902C00E14D15 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		5B36B20B28C1911700E14D15 /* Solution1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution1.swift; sourceTree = "<group>"; };
@@ -64,6 +66,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B82BCA92A1F5DA400A4E716 /* 14.最长公共前缀 */ = {
+			isa = PBXGroup;
+			children = (
+				4B82BCAA2A1F5DDB00A4E716 /* Solution14.swift */,
+			);
+			path = "14.最长公共前缀";
+			sourceTree = "<group>";
+		};
 		5B36B1F728C1902C00E14D15 = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +100,7 @@
 				5B56927C292751CC00DB792C /* 5.最长回文子串 */,
 				5BE7DF952929BE9100FFFB3B /* 9.回文数 */,
 				5BE7DF98292A565F00FFFB3B /* 13.罗马数字转整数 */,
+				4B82BCA92A1F5DA400A4E716 /* 14.最长公共前缀 */,
 				5B56927F292759E400DB792C /* 常用方法总结 */,
 				5B5692822927737700DB792C /* 排序算法 */,
 				5B36B20328C1902C00E14D15 /* main.swift */,
@@ -238,6 +249,7 @@
 				5B36B20428C1902C00E14D15 /* main.swift in Sources */,
 				5B56928A292784F000DB792C /* Common.swift in Sources */,
 				5BE7DF9A292A567C00FFFB3B /* Solution13.swift in Sources */,
+				4B82BCAB2A1F5DDB00A4E716 /* Solution14.swift in Sources */,
 				5B5692782927293200DB792C /* Solution3.swift in Sources */,
 				5B56927B292736E500DB792C /* Solution4.swift in Sources */,
 				5BE7DF942928CD0D00FFFB3B /* SelectSort.swift in Sources */,
