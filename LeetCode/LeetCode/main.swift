@@ -8,6 +8,21 @@
 import Foundation
 
 
+// ***** 排序 *****
+//var nums = [3, 6, 8, 10, 1, 1, 2, 7, 4, 5, 9]
+////Sort.quick(&nums, 0, nums.count - 1)
+//InsertSort.sort(&nums)
+//print(nums)
+
+
+
+
+// 18.四数之和
+print("四数之和: \(Solution.fourSum([2, 2, 2, 2, 2, 2], 8))")
+
+
+
+
 //string_handle()
 
 /// ********排序算法 ******
@@ -31,7 +46,32 @@ var v2: ListNode? = ListNode(9, ListNode(9, ListNode(9, ListNode(9))))
 //let result = Solution13().romanToInt("V")
 //print(result)
 
+var strs = ["test", "123", "abc", "longest", "prefix", "897"]
 
-let longestCommonPrefix = Solution14().longestCommonPrefix("")
+//print(strs.sorted())
 
 
+//let longestCommonPrefix = Solution14().longestCommonPrefix("")
+
+
+var nums1 = [1, 3, 5,]
+let nums2 = [2, 4, 6,]
+//Solution88().mergeAA(&nums1,3,  nums2, 3)
+
+//print(Solution739().dailyTemperatures([73,74,75,71,69,72,76,73]))
+
+let matrix = [[1]], target = 1
+
+//print(Solution74().searchMatrix(matrix, target))
+//
+//
+//print(Solution905().sortArrayByParity([3, 1, 2, 4]))
+
+print(Solution69().mySqrt(8))
+
+
+var v876: ListNode? = ListNode(7, ListNode(2, ListNode(4, ListNode(3))))
+
+var v875: ListNode? = ListNode(5, ListNode(6, ListNode(4)))
+
+Solution442().addTwoNumbers(v876, v875)

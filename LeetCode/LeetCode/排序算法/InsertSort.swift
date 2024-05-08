@@ -13,21 +13,18 @@ import Foundation
 /// 稳定
 class InsertSort {
 
-  class func sort(_ list: [Int]) -> [Int] {
-      var tempArr = list
+  class func sort(_ nums: inout [Int]) -> Void {
       /// 第一个作为有序的 作为对比
-        for i in 1..<list.count {
-            let value = list[i]
+        for i in 1..<nums.count {
+            let value = nums[i]
             var j = i - 1
             /// 与前面的有序数组对比
-            while j >= 0 && value < tempArr[j] {
-                tempArr[j + 1] = tempArr[j]
+            while j >= 0 && value < nums[j] {
+                nums[j + 1] = nums[j]
                 j -= 1
             }
             /// 将当前对比的数字放在正确的位置
-            tempArr[j+1] = value
-            print_array(tempArr, i)
+            nums[j+1] = value
         }
-      return tempArr
     }
 }
