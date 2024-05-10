@@ -9,7 +9,7 @@ import Foundation
 /**
  
  */
-class Solution905 {
+extension Solution {
     
     func sortArrayByParity(_ nums: [Int]) -> [Int] {
 

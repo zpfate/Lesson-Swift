@@ -22,7 +22,7 @@ class ListNode {
 }
 
 
-class Solution2 {
+extension Solution {
     
    class func addTwoNumbers(_ l1: inout ListNode?, _ l2: inout ListNode?) -> ListNode? {
         

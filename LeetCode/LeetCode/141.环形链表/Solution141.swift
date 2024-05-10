@@ -14,7 +14,7 @@ import Foundation
 
  如果链表中存在环 ，则返回 true 。 否则，返回 false 。
  */
-class Solution141 {
+extension Solution {
     
     
     func hasCycle(_ head: ListNode?) -> Bool {

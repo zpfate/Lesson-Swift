@@ -8,7 +8,7 @@
 import Foundation
 
 
-class Solution69 {
+extension Solution {
     
     func mySqrt(_ x: Int) -> Int {
         

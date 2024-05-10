@@ -8,7 +8,7 @@
 import Foundation
 
 
-class Solution19 {
+extension Solution {
     
 //    func removeNthFromEnd(_ head: ListNode?, _ n: Int) -> ListNode? {
 //        

@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Solution20 {
+extension Solution {
     
     
     /// 单调栈

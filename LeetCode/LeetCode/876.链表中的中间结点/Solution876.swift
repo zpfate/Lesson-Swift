@@ -12,7 +12,7 @@ import Foundation
  如果有两个中间结点，则返回第二个中间结点。
  */
 
-class Solution876 {
+extension Solution {
     
     func middleNode(_ head: ListNode?) -> ListNode? {
         var slow = head

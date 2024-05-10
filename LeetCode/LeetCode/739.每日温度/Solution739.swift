@@ -8,7 +8,7 @@
 import Foundation
 
 
-class Solution739 {
+extension Solution {
     
     /// [73,74,75,71,69,72,76,73]
     func dailyTemperatures(_ temperatures: [Int]) -> [Int] {

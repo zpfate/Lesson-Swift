@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Solution88 {
+extension Solution {
     
     func mergeAA(_ nums1: inout [Int], _ m: Int, _ nums2: [Int], _ n: Int) {
         nums1.append(contentsOf: nums2)

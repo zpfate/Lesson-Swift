@@ -12,7 +12,7 @@ import Foundation
  你可以假设除了数字 0 之外，这两个数字都不会以零开头。
  */
 
-class Solution442 {
+extension Solution {
     
     func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
       

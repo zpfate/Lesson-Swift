@@ -12,7 +12,7 @@ import Foundation
  * 例如，121 是回文，而 123 不是。
  */
 
-class Solution9 {
+extension Solution {
     class func isPalindrome(_ x: Int) -> Bool {
         guard x > 0 else { return false }
      

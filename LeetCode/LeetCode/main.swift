@@ -18,10 +18,13 @@ import Foundation
 
 
 // 18.四数之和
-print("四数之和: \(Solution.fourSum([2, 2, 2, 2, 2, 2], 8))")
+//print("四数之和: \(Solution.fourSum([2, 2, 2, 2, 2, 2], 8))")
 
+// 238.除自身以外数组的乘积
+//Solution.productExceptSelf([1, 2, 3, 4])
 
-
+// 303. 区域和检索 - 数组不可变
+Solution.retrieveSum()
 
 //string_handle()
 
@@ -67,11 +70,9 @@ let matrix = [[1]], target = 1
 //
 //print(Solution905().sortArrayByParity([3, 1, 2, 4]))
 
-print(Solution69().mySqrt(8))
 
 
 var v876: ListNode? = ListNode(7, ListNode(2, ListNode(4, ListNode(3))))
 
 var v875: ListNode? = ListNode(5, ListNode(6, ListNode(4)))
 
-Solution442().addTwoNumbers(v876, v875)
