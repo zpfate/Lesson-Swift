@@ -22,6 +22,7 @@
 		4BCADB412BEB54ED00BDB948 /* Solution18.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCADB402BEB54ED00BDB948 /* Solution18.swift */; };
 		4BCADB442BEC99ED00BDB948 /* Solution238.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCADB432BEC99ED00BDB948 /* Solution238.swift */; };
 		4BCADB472BEDFBC300BDB948 /* Solution303.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCADB462BEDFBC300BDB948 /* Solution303.swift */; };
+		4BCADB4A2BEF58EA00BDB948 /* Solution1588.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCADB492BEF58EA00BDB948 /* Solution1588.swift */; };
 		4BCD93EE2AA99BC300FBA5B3 /* Solution442.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCD93ED2AA99BC300FBA5B3 /* Solution442.swift */; };
 		4BCD93F12AA9D84200FBA5B3 /* Solution206.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCD93F02AA9D84200FBA5B3 /* Solution206.swift */; };
 		4BCD942D2AB3139B00FBA5B3 /* Solution61.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCD942C2AB3139B00FBA5B3 /* Solution61.swift */; };
@@ -71,6 +72,7 @@
 		4BCADB402BEB54ED00BDB948 /* Solution18.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution18.swift; sourceTree = "<group>"; };
 		4BCADB432BEC99ED00BDB948 /* Solution238.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution238.swift; sourceTree = "<group>"; };
 		4BCADB462BEDFBC300BDB948 /* Solution303.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution303.swift; sourceTree = "<group>"; };
+		4BCADB492BEF58EA00BDB948 /* Solution1588.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution1588.swift; sourceTree = "<group>"; };
 		4BCD93ED2AA99BC300FBA5B3 /* Solution442.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution442.swift; sourceTree = "<group>"; };
 		4BCD93F02AA9D84200FBA5B3 /* Solution206.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution206.swift; sourceTree = "<group>"; };
 		4BCD942C2AB3139B00FBA5B3 /* Solution61.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution61.swift; sourceTree = "<group>"; };
@@ -216,6 +218,14 @@
 			path = "303.区域和检索-数组不可变";
 			sourceTree = "<group>";
 		};
+		4BCADB482BEF58C100BDB948 /* 1588.所有奇数长度子数组的和 */ = {
+			isa = PBXGroup;
+			children = (
+				4BCADB492BEF58EA00BDB948 /* Solution1588.swift */,
+			);
+			path = "1588.所有奇数长度子数组的和";
+			sourceTree = "<group>";
+		};
 		4BCD93EC2AA99BA200FBA5B3 /* 442.两数相加2 */ = {
 			isa = PBXGroup;
 			children = (
@@ -251,6 +261,7 @@
 		5B36B1F728C1902C00E14D15 = {
 			isa = PBXGroup;
 			children = (
+				4BCADB482BEF58C100BDB948 /* 1588.所有奇数长度子数组的和 */,
 				5B36B20228C1902C00E14D15 /* LeetCode */,
 				5B36B20128C1902C00E14D15 /* Products */,
 			);
@@ -434,6 +445,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BCADB4A2BEF58EA00BDB948 /* Solution1588.swift in Sources */,
 				5B5692882927847900DB792C /* InsertSort.swift in Sources */,
 				4BCADB3D2BE8B6CB00BDB948 /* Sort.swift in Sources */,
 				4BCD93F12AA9D84200FBA5B3 /* Solution206.swift in Sources */,
