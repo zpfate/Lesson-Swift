@@ -11,7 +11,7 @@ import Foundation
 extension Solution {
     
     /// [73,74,75,71,69,72,76,73]
-    func dailyTemperatures(_ temperatures: [Int]) -> [Int] {
+    class func dailyTemperatures(_ temperatures: [Int]) -> [Int] {
         
         if (temperatures.count < 2) {
             return [0]

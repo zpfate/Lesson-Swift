@@ -28,6 +28,14 @@ Solution.retrieveSum()
 
 //string_handle()
 
+
+// 1588.所有奇数长度子数组的和
+print("1588: \(Solution.sumOddLengthSubarrays([1,4,2,5,3]))")
+
+
+
+
+
 /// ********排序算法 ******
 fileprivate var arr = [10, 2, 5, 3, 6, 1]
 //BubbleSort.sort(arr)

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B13C7502BF48CD00032004B /* Solution496.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B13C74F2BF48CD00032004B /* Solution496.swift */; };
 		4B37D1912A8CBD63007E6D13 /* Solution74.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B37D1902A8CBD63007E6D13 /* Solution74.swift */; };
 		4B50DA212A6FD9B700DB8FB3 /* Solution739.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B50DA202A6FD9B700DB8FB3 /* Solution739.swift */; };
 		4B68FE8F2A97519B009FA727 /* Solution20.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B68FE8E2A97519B009FA727 /* Solution20.swift */; };
@@ -23,6 +24,8 @@
 		4BCADB442BEC99ED00BDB948 /* Solution238.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCADB432BEC99ED00BDB948 /* Solution238.swift */; };
 		4BCADB472BEDFBC300BDB948 /* Solution303.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCADB462BEDFBC300BDB948 /* Solution303.swift */; };
 		4BCADB4A2BEF58EA00BDB948 /* Solution1588.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCADB492BEF58EA00BDB948 /* Solution1588.swift */; };
+		4BCADB4D2BF1A6B900BDB948 /* Solution42.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCADB4C2BF1A6B900BDB948 /* Solution42.swift */; };
+		4BCADB502BF1A71200BDB948 /* Solution232.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCADB4F2BF1A71200BDB948 /* Solution232.swift */; };
 		4BCD93EE2AA99BC300FBA5B3 /* Solution442.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCD93ED2AA99BC300FBA5B3 /* Solution442.swift */; };
 		4BCD93F12AA9D84200FBA5B3 /* Solution206.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCD93F02AA9D84200FBA5B3 /* Solution206.swift */; };
 		4BCD942D2AB3139B00FBA5B3 /* Solution61.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCD942C2AB3139B00FBA5B3 /* Solution61.swift */; };
@@ -56,6 +59,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4B13C74F2BF48CD00032004B /* Solution496.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution496.swift; sourceTree = "<group>"; };
 		4B37D1902A8CBD63007E6D13 /* Solution74.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution74.swift; sourceTree = "<group>"; };
 		4B50DA202A6FD9B700DB8FB3 /* Solution739.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution739.swift; sourceTree = "<group>"; };
 		4B68FE8E2A97519B009FA727 /* Solution20.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution20.swift; sourceTree = "<group>"; };
@@ -73,6 +77,8 @@
 		4BCADB432BEC99ED00BDB948 /* Solution238.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution238.swift; sourceTree = "<group>"; };
 		4BCADB462BEDFBC300BDB948 /* Solution303.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution303.swift; sourceTree = "<group>"; };
 		4BCADB492BEF58EA00BDB948 /* Solution1588.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution1588.swift; sourceTree = "<group>"; };
+		4BCADB4C2BF1A6B900BDB948 /* Solution42.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution42.swift; sourceTree = "<group>"; };
+		4BCADB4F2BF1A71200BDB948 /* Solution232.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution232.swift; sourceTree = "<group>"; };
 		4BCD93ED2AA99BC300FBA5B3 /* Solution442.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution442.swift; sourceTree = "<group>"; };
 		4BCD93F02AA9D84200FBA5B3 /* Solution206.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution206.swift; sourceTree = "<group>"; };
 		4BCD942C2AB3139B00FBA5B3 /* Solution61.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution61.swift; sourceTree = "<group>"; };
@@ -105,6 +111,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B13C74E2BF48C990032004B /* 496.下一个更大元素1 */ = {
+			isa = PBXGroup;
+			children = (
+				4B13C74F2BF48CD00032004B /* Solution496.swift */,
+			);
+			path = "496.下一个更大元素1";
+			sourceTree = "<group>";
+		};
 		4B37D18F2A8CBD47007E6D13 /* 74.搜索二维矩阵 */ = {
 			isa = PBXGroup;
 			children = (
@@ -226,6 +240,22 @@
 			path = "1588.所有奇数长度子数组的和";
 			sourceTree = "<group>";
 		};
+		4BCADB4B2BF1A6A100BDB948 /* 42.接雨水 */ = {
+			isa = PBXGroup;
+			children = (
+				4BCADB4C2BF1A6B900BDB948 /* Solution42.swift */,
+			);
+			path = "42.接雨水";
+			sourceTree = "<group>";
+		};
+		4BCADB4E2BF1A6F900BDB948 /* 232.用栈实现队列 */ = {
+			isa = PBXGroup;
+			children = (
+				4BCADB4F2BF1A71200BDB948 /* Solution232.swift */,
+			);
+			path = "232.用栈实现队列";
+			sourceTree = "<group>";
+		};
 		4BCD93EC2AA99BA200FBA5B3 /* 442.两数相加2 */ = {
 			isa = PBXGroup;
 			children = (
@@ -261,7 +291,6 @@
 		5B36B1F728C1902C00E14D15 = {
 			isa = PBXGroup;
 			children = (
-				4BCADB482BEF58C100BDB948 /* 1588.所有奇数长度子数组的和 */,
 				5B36B20228C1902C00E14D15 /* LeetCode */,
 				5B36B20128C1902C00E14D15 /* Products */,
 			);
@@ -278,6 +307,7 @@
 		5B36B20228C1902C00E14D15 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				4B13C74E2BF48C990032004B /* 496.下一个更大元素1 */,
 				4BCADB3B2BE8B6B000BDB948 /* 0.排序 */,
 				5B36B20A28C190D400E14D15 /* 1.两数之和 */,
 				5B36B20D28C1915300E14D15 /* 2.两数相加 */,
@@ -291,18 +321,21 @@
 				4BCADB3F2BEB54A000BDB948 /* 18.四数之和 */,
 				4BA19FCE2AA0AA02008F33BF /* 19. 删除链表的倒数第 N 个结点  */,
 				4B68FE8D2A975187009FA727 /* 20.有效的括号 */,
+				4BCADB4B2BF1A6A100BDB948 /* 42.接雨水 */,
 				4BCD942B2AB312B100FBA5B3 /* 61.旋转链表 */,
 				4B68FE932A9758A4009FA727 /* 69.x的算术平方根 */,
 				4B37D18F2A8CBD47007E6D13 /* 74.搜索二维矩阵 */,
 				4BD1827C2A690ED400333B8A /* 88.合并两个有序数组 */,
 				4BA19FCB2AA0A36A008F33BF /* 141.环形链表 */,
 				4BCD93EF2AA9D82000FBA5B3 /* 206.反转链表 */,
+				4BCADB4E2BF1A6F900BDB948 /* 232.用栈实现队列 */,
 				4BCADB422BEC99DB00BDB948 /* 238. 除自身以外数组的乘积 */,
 				4BCADB452BEDFBA900BDB948 /* 303.区域和检索-数组不可变 */,
 				4BCD93EC2AA99BA200FBA5B3 /* 442.两数相加2 */,
 				4B50DA1F2A6FD99B00DB8FB3 /* 739.每日温度 */,
 				4BA19FC82AA02E0D008F33BF /* 876.链表中的中间结点 */,
 				4B68FE902A9754B5009FA727 /* 905.按奇偶排序数组 */,
+				4BCADB482BEF58C100BDB948 /* 1588.所有奇数长度子数组的和 */,
 				5B56927F292759E400DB792C /* 常用方法总结 */,
 				5B5692822927737700DB792C /* 排序算法 */,
 				5B36B20328C1902C00E14D15 /* main.swift */,
@@ -453,10 +486,12 @@
 				4BA19FCA2AA02E36008F33BF /* Solution876.swift in Sources */,
 				4BA19FCD2AA0A37D008F33BF /* Solution141.swift in Sources */,
 				4BCADB442BEC99ED00BDB948 /* Solution238.swift in Sources */,
+				4B13C7502BF48CD00032004B /* Solution496.swift in Sources */,
 				5B36B20C28C1911700E14D15 /* Solution1.swift in Sources */,
 				4BCADB382BE8AED000BDB948 /* Solution.swift in Sources */,
 				5BE7DF972929BEA300FFFB3B /* Solution9.swift in Sources */,
 				4BCADB412BEB54ED00BDB948 /* Solution18.swift in Sources */,
+				4BCADB502BF1A71200BDB948 /* Solution232.swift in Sources */,
 				4B68FE952A9758C0009FA727 /* Solution69.swift in Sources */,
 				5B36B20428C1902C00E14D15 /* main.swift in Sources */,
 				4BCADB472BEDFBC300BDB948 /* Solution303.swift in Sources */,
@@ -474,6 +509,7 @@
 				4B50DA212A6FD9B700DB8FB3 /* Solution739.swift in Sources */,
 				5BE7DF942928CD0D00FFFB3B /* SelectSort.swift in Sources */,
 				5B5692842927739400DB792C /* BubbleSort.swift in Sources */,
+				4BCADB4D2BF1A6B900BDB948 /* Solution42.swift in Sources */,
 				4BCD93EE2AA99BC300FBA5B3 /* Solution442.swift in Sources */,
 				5B5692862927835E00DB792C /* ShellSort.swift in Sources */,
 				4BCADB3A2BE8AF2300BDB948 /* Solution15.swift in Sources */,

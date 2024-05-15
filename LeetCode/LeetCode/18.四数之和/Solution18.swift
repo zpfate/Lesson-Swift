@@ -37,13 +37,13 @@ extension Solution {
                 continue
             }
             
-            for j in i+1..<count-2 {
+            for j in (i+1)..<count-2 {
                 
-                if j > i + 1 && sorted[j] == sorted[j - 1] {
+                if j > i + 1 &&  sorted[j] == sorted[j - 1] {
                     continue
                 }
-                
-                var left = i + 1
+                /// - 2   -1  0  1  1  1 5  5  5
+                var left = j + 1
                 var right = count - 1
                 while left < right {
                     
@@ -61,17 +61,19 @@ extension Solution {
                         while left < right, sorted[right] == sorted[right + 1] {
                             right -= 1
                         }
-
-                        
                     } else if (sum > target) {
                         right -= 1
+                        while left < right, sorted[right] == sorted[right + 1] {
+                            right -= 1
+                        }
                     } else {
                         left += 1
+                        while left < right, sorted[left] == sorted[left - 1] {
+                            left += 1
+                        }
                     }
                 }
-                
             }
-            
         }
         
         return results
