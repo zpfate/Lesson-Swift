@@ -22,7 +22,7 @@ import Foundation
 
 extension Solution {
     
-    class func retrieveSum() -> Void {
+    func retrieveSum() -> Void {
         let obj = NumArray([-2,0,3,-5,2,-1])
         let ret_1: Int = obj.sumRange(0, 2)
         print(ret_1)

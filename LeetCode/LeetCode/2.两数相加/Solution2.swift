@@ -24,7 +24,7 @@ class ListNode {
 
 extension Solution {
     
-   class func addTwoNumbers(_ l1: inout ListNode?, _ l2: inout ListNode?) -> ListNode? {
+   func addTwoNumbers(_ l1: inout ListNode?, _ l2: inout ListNode?) -> ListNode? {
         
         var resultNode = ListNode();
         let firstNode = resultNode;

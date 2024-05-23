@@ -13,7 +13,7 @@ import Foundation
  */
 
 extension Solution {
-    class func isPalindrome(_ x: Int) -> Bool {
+    func isPalindrome(_ x: Int) -> Bool {
         guard x > 0 else { return false }
      
         // 1 2 3 4 5

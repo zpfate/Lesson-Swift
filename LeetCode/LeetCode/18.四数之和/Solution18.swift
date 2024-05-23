@@ -19,7 +19,7 @@ import Foundation
 
 extension Solution {
     
-    class func fourSum(_ nums: [Int], _ target: Int) -> [[Int]] {
+    func fourSum(_ nums: [Int], _ target: Int) -> [[Int]] {
         
         // 判空
         guard nums.count>=4 else {

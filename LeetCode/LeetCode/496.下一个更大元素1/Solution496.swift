@@ -26,7 +26,6 @@ extension Solution {
         
         
         return stack
-        
     }
     
 }

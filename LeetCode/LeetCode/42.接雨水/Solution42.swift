@@ -17,7 +17,7 @@ extension Solution {
     // 双指针
     //
     
-    class func trap(_ height: [Int]) -> Int {
+    func trap(_ height: [Int]) -> Int {
 
         // 双指针
         var left = 0

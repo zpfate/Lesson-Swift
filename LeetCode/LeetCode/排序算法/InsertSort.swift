@@ -13,7 +13,7 @@ import Foundation
 /// 稳定
 class InsertSort {
 
-  class func sort(_ nums: inout [Int]) -> Void {
+  func sort(_ nums: inout [Int]) -> Void {
       /// 第一个作为有序的 作为对比
         for i in 1..<nums.count {
             let value = nums[i]

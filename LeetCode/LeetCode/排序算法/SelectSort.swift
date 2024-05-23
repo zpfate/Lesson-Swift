@@ -12,7 +12,7 @@ import Foundation
 /// 稳定
 class SelectSort {
     
-   class func sort(_ list: [Int]) -> [Int] {
+   func sort(_ list: [Int]) -> [Int] {
         var tempArr = list
         
         var min: Int?

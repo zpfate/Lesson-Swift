@@ -19,7 +19,7 @@ extension Solution {
     // 1.首先计算出前缀和数组
     // 2. 奇数子数组的和 可以用 前缀和 奇数length下标 相减
     
-    class func sumOddLengthSubarrays(_ arr: [Int]) -> Int {
+    func sumOddLengthSubarrays(_ arr: [Int]) -> Int {
 
         var results = [Int](repeating: 0, count: arr.count + 1)
         

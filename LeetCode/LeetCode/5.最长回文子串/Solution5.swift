@@ -11,7 +11,7 @@ import Foundation
 
 extension Solution {
     
-    class func longestPalindrome(_ s: String) -> String {
+    func longestPalindrome(_ s: String) -> String {
        
         var arr:[Character] = []
         for i in 0..<s.count {

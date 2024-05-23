@@ -31,7 +31,7 @@ class Sort {
 //    }
     
     
-    class func bubble2(_ nums: inout [Int]) -> Void {
+    func bubble2(_ nums: inout [Int]) -> Void {
         for i in 0..<nums.count {
             for j in 0..<nums.count {
                 if nums[i] < nums[j] {
@@ -46,7 +46,7 @@ class Sort {
      锚定第一个元素,将后面无序区的元素插入到有序区合适的位置
      ***/
     
-    class func insert(_ nums: inout [Int]) -> Void {
+    func insert(_ nums: inout [Int]) -> Void {
     /// 第一个作为有序的 作为对比
         for i in 1..<nums.count {
             let value = nums[i]
@@ -65,7 +65,7 @@ class Sort {
      选择排序
      每趟从待排序的序列中选出最小的元素，顺序放在已排序的序列末尾，直到全部排序结束为止
      ***/
-    class func select(_ nums: inout [Int]) -> Void {
+    func select(_ nums: inout [Int]) -> Void {
         
         var min: Int?
         for i in 0..<nums.count {
@@ -82,7 +82,7 @@ class Sort {
     
     /// 快速排序 分治法
     /// 快速排序
-    class func quick(_ nums: inout [Int], _ low: Int, _ high: Int) -> Void {
+    func quick(_ nums: inout [Int], _ low: Int, _ high: Int) -> Void {
         
        if (low < high) {
            let pivot = partition(&nums, low, high)
@@ -91,7 +91,7 @@ class Sort {
        }
     }
 
-    class func partition(_ nums: inout [Int], _ low: Int, _ high: Int) -> Int {
+    func partition(_ nums: inout [Int], _ low: Int, _ high: Int) -> Int {
         
         let pivot = nums[high]
         var i = low - 1

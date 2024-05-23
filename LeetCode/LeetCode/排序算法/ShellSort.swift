@@ -9,7 +9,7 @@ import Foundation
 
 class ShellSort {
     
-//    class func sort(_ list: [Int]) -> [Int] {
+//    func sort(_ list: [Int]) -> [Int] {
 //        
 //    }
     

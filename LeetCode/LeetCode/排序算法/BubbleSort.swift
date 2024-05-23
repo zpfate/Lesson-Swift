@@ -11,7 +11,7 @@ import Foundation
 /// 稳定
 class BubbleSort {
     
-    class func sort(_ arr: [Int]) -> [Int] {
+    func sort(_ arr: [Int]) -> [Int] {
         var list = arr
         /// 外层循环 i表示扫描元素的个数
         /// i > 1 只有一个元素的时候必然是有序的
@@ -31,7 +31,7 @@ class BubbleSort {
         return list
     }
     
-    class func sort2(_ arr: [Int]) -> [Int] {
+    func sort2(_ arr: [Int]) -> [Int] {
         var list = arr
         for i in 0..<list.count {
             for j in 0..<list.count {

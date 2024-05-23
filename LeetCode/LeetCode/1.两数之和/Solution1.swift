@@ -10,7 +10,7 @@ import Foundation
 /// 实现一个算法，确定一个字符串 s 的所有字符是否全都不同。
 extension Solution {
     
-   class func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
+   func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
         
         for (index, value) in nums.enumerated() {
             let minus = target - value;

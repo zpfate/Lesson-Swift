@@ -21,7 +21,7 @@ extension Solution {
         2. 不能使用除法,因为当元素的是0的时候无法进行
      */
     
-   class func productExceptSelf(_ nums: [Int]) -> [Int] {
+   func productExceptSelf(_ nums: [Int]) -> [Int] {
        
        
        
