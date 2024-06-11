@@ -7,37 +7,54 @@
 
 import Foundation
 
-
 let solution = Solution()
 
 // ***** 排序 *****
-//var nums = [3, 6, 8, 10, 1, 1, 2, 7, 4, 5, 9]
-////Sort.quick(&nums, 0, nums.count - 1)
-//InsertSort.sort(&nums)
-//print(nums)
+// var nums = [3, 6, 8, 10, 1, 1, 2, 7, 4, 5, 9]
+// Sort.quick(&nums, 0, nums.count - 1)
+// InsertSort.sort(&nums)
+// print(nums)
 
-
-print("150.逆波兰表达式:\(solution.evalRPN(["4","13","5","/","+"]))")
 
 // 18.四数之和
 //print("四数之和: \(Solution.fourSum([2, 2, 2, 2, 2, 2], 8))")
 
-// 198. 打家劫舍
-print("198.打家劫舍: \(solution.rob2([ 2, 1,1, 2]))")
 
+// 35.搜索插入位置
+print("35.搜索插入位置: \(solution.searchInsert([1,3,5,6], 5))")
+
+// [2,1,5,6,2,3]
+// 84. 柱状图中最大的矩形
+//print("84. 柱状图中最大的矩形: \(solution.largestRectangleArea([2,1,5,6,2,3]))")
+
+// 150.逆波兰表达式
+//print("150.逆波兰表达式:\(solution.evalRPN(["4","13","5","/","+"]))")
+
+// 198. 打家劫舍
+//print("198.打家劫舍: \(solution.rob2([ 2, 1,1, 2]))")
 
 
 // 238.除自身以外数组的乘积
 //Solution.productExceptSelf([1, 2, 3, 4])
 
-// 303. 区域和检索 - 数组不可变
-solution.retrieveSum()
+// 278.第一个错误的版本
+print("278.第一个错误的版本: \(solution.firstBadVersion(1))")
 
-//string_handle()
+
+// 303. 区域和检索 - 数组不可变
+//solution.retrieveSum()
+
+// 496. 下一个更大元素 I
+//print("496. 下一个更大元素 I:\(solution.nextGreaterElement([2, 4], [1, 2, 3, 4]))")
+
+
+// 704.二分查找
+//print("704.二分查找: \(solution.search([-1,0,3,5,9,12], 13))")
+
 
 
 // 1588.所有奇数长度子数组的和
-print("1588: \(solution.sumOddLengthSubarrays([1,4,2,5,3]))")
+//print("1588: \(solution.sumOddLengthSubarrays([1,4,2,5,3]))")
 
 
 

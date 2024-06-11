@@ -17,15 +17,41 @@ import Foundation
 
 extension Solution {
     
-    
+
+    // 栈 + 哈希表
     func nextGreaterElement(_ nums1: [Int], _ nums2: [Int]) -> [Int] {
+        
+        // 先寻找nums1[i] == nums2[j] 找出j
+        
+        if nums1.isEmpty || nums2.isEmpty {
+            return []
+        }
         
         var stack = [Int]()
         
+        var map = [Int: Int]()
         
+        for i in 0..<nums2.count {
+            
+            while !stack.isEmpty && nums2[i] > stack.last! {
+                // 先求出下一个更大值
+                // 并使用map保存
+                map[stack.popLast()!] = nums2[i]
+            }
+            // 把nums2的元素压入栈
+            stack.append(nums2[i])
+        }
         
+        var results = [Int](repeating: -1, count: nums1.count)
         
-        return stack
+        for i in 0..<nums1.count {
+            // 如果map不存在直接跳过
+            guard let count = map[nums1[i]] else {
+                continue
+            }
+            // 存在的话则赋值
+            results[i] = count
+        }
+        return results
     }
-    
 }

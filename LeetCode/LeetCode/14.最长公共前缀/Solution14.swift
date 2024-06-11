@@ -12,14 +12,11 @@ import Foundation
  */
 extension Solution {
     
-    func longestCommonPrefix(_ strs: [String]) -> String {
-    
-        var first = strs[0]
-        for str in strs {
-            
-            
-        }
-        return ""
-    }
-    
+//    func longestCommonPrefix(_ strs: [String]) -> String {
+//    
+//      
+// 
+//    }
+//    
+
 }

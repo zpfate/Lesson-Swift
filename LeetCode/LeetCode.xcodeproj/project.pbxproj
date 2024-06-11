@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B02628E2C05AB3D00AE2B3B /* Solution84.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B02628D2C05AB3D00AE2B3B /* Solution84.swift */; };
+		4B0262912C084E4500AE2B3B /* Solution704.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0262902C084E4500AE2B3B /* Solution704.swift */; };
+		4B0262942C08517800AE2B3B /* Solution852.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0262932C08517800AE2B3B /* Solution852.swift */; };
+		4B0262972C0DAFAA00AE2B3B /* Solution278.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0262962C0DAFAA00AE2B3B /* Solution278.swift */; };
+		4B02629B2C0F05CA00AE2B3B /* Solution35.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B02629A2C0F05CA00AE2B3B /* Solution35.swift */; };
 		4B13C7502BF48CD00032004B /* Solution496.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B13C74F2BF48CD00032004B /* Solution496.swift */; };
 		4B13C7532BF5A2AC0032004B /* Solution509.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B13C7522BF5A2AC0032004B /* Solution509.swift */; };
 		4B13C7562BF5A8590032004B /* Solution1137.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B13C7552BF5A8590032004B /* Solution1137.swift */; };
@@ -65,6 +70,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4B02628D2C05AB3D00AE2B3B /* Solution84.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution84.swift; sourceTree = "<group>"; };
+		4B0262902C084E4500AE2B3B /* Solution704.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution704.swift; sourceTree = "<group>"; };
+		4B0262932C08517800AE2B3B /* Solution852.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution852.swift; sourceTree = "<group>"; };
+		4B0262962C0DAFAA00AE2B3B /* Solution278.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution278.swift; sourceTree = "<group>"; };
+		4B02629A2C0F05CA00AE2B3B /* Solution35.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution35.swift; sourceTree = "<group>"; };
 		4B13C74F2BF48CD00032004B /* Solution496.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution496.swift; sourceTree = "<group>"; };
 		4B13C7522BF5A2AC0032004B /* Solution509.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution509.swift; sourceTree = "<group>"; };
 		4B13C7552BF5A8590032004B /* Solution1137.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution1137.swift; sourceTree = "<group>"; };
@@ -123,6 +133,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B02628C2C05AB1C00AE2B3B /* 84.柱状图中最大的矩形 */ = {
+			isa = PBXGroup;
+			children = (
+				4B02628D2C05AB3D00AE2B3B /* Solution84.swift */,
+			);
+			path = "84.柱状图中最大的矩形";
+			sourceTree = "<group>";
+		};
+		4B02628F2C084E2E00AE2B3B /* 704.二分查找 */ = {
+			isa = PBXGroup;
+			children = (
+				4B0262902C084E4500AE2B3B /* Solution704.swift */,
+			);
+			path = "704.二分查找";
+			sourceTree = "<group>";
+		};
+		4B0262922C08515900AE2B3B /* 852.山脉数组的峰顶索引 */ = {
+			isa = PBXGroup;
+			children = (
+				4B0262932C08517800AE2B3B /* Solution852.swift */,
+			);
+			path = "852.山脉数组的峰顶索引";
+			sourceTree = "<group>";
+		};
+		4B0262952C0DAF9600AE2B3B /* 278.第一个错误的版本 */ = {
+			isa = PBXGroup;
+			children = (
+				4B0262962C0DAFAA00AE2B3B /* Solution278.swift */,
+			);
+			path = "278.第一个错误的版本";
+			sourceTree = "<group>";
+		};
+		4B0262992C0F05B000AE2B3B /* 35.搜索插入位置 */ = {
+			isa = PBXGroup;
+			children = (
+				4B02629A2C0F05CA00AE2B3B /* Solution35.swift */,
+			);
+			path = "35.搜索插入位置";
+			sourceTree = "<group>";
+		};
 		4B13C74E2BF48C990032004B /* 496.下一个更大元素1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -367,6 +417,14 @@
 		5B36B20228C1902C00E14D15 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				4B0262992C0F05B000AE2B3B /* 35.搜索插入位置 */,
+				4B0262952C0DAF9600AE2B3B /* 278.第一个错误的版本 */,
+				4B0262922C08515900AE2B3B /* 852.山脉数组的峰顶索引 */,
+				4B02628F2C084E2E00AE2B3B /* 704.二分查找 */,
+				4B02628C2C05AB1C00AE2B3B /* 84.柱状图中最大的矩形 */,
+				4BCADB4E2BF1A6F900BDB948 /* 232.用栈实现队列 */,
+				4BCADB4B2BF1A6A100BDB948 /* 42.接雨水 */,
+				4B13C74E2BF48C990032004B /* 496.下一个更大元素1 */,
 				4B13C7602BFDD0460032004B /* 150.逆波兰表达式求值 */,
 				4BCADB3B2BE8B6B000BDB948 /* 0.排序 */,
 				5B36B20A28C190D400E14D15 /* 1.两数之和 */,
@@ -381,7 +439,6 @@
 				4BCADB3F2BEB54A000BDB948 /* 18.四数之和 */,
 				4BA19FCE2AA0AA02008F33BF /* 19. 删除链表的倒数第 N 个结点  */,
 				4B68FE8D2A975187009FA727 /* 20.有效的括号 */,
-				4BCADB4B2BF1A6A100BDB948 /* 42.接雨水 */,
 				4BCD942B2AB312B100FBA5B3 /* 61.旋转链表 */,
 				4B68FE932A9758A4009FA727 /* 69.x的算术平方根 */,
 				4B37D18F2A8CBD47007E6D13 /* 74.搜索二维矩阵 */,
@@ -390,12 +447,10 @@
 				4B13C75A2BF5E1AD0032004B /* 198.打家劫舍1 */,
 				4BCD93EF2AA9D82000FBA5B3 /* 206.反转链表 */,
 				4B13C7572BF5D8E10032004B /* 213.打家劫舍2 */,
-				4BCADB4E2BF1A6F900BDB948 /* 232.用栈实现队列 */,
 				4BCADB422BEC99DB00BDB948 /* 238. 除自身以外数组的乘积 */,
 				4B13C75D2BFDC8BF0032004B /* 300.最长递增子序列 */,
 				4BCADB452BEDFBA900BDB948 /* 303.区域和检索-数组不可变 */,
 				4BCD93EC2AA99BA200FBA5B3 /* 442.两数相加2 */,
-				4B13C74E2BF48C990032004B /* 496.下一个更大元素1 */,
 				4B13C7512BF5A2900032004B /* 509.斐波那契数 */,
 				4B50DA1F2A6FD99B00DB8FB3 /* 739.每日温度 */,
 				4BA19FC82AA02E0D008F33BF /* 876.链表中的中间结点 */,
@@ -548,6 +603,7 @@
 				5B5692882927847900DB792C /* InsertSort.swift in Sources */,
 				4BCADB3D2BE8B6CB00BDB948 /* Sort.swift in Sources */,
 				4BCD93F12AA9D84200FBA5B3 /* Solution206.swift in Sources */,
+				4B0262942C08517800AE2B3B /* Solution852.swift in Sources */,
 				5B56927E292751E300DB792C /* Solution5.swift in Sources */,
 				4BA19FCA2AA02E36008F33BF /* Solution876.swift in Sources */,
 				4BA19FCD2AA0A37D008F33BF /* Solution141.swift in Sources */,
@@ -570,9 +626,12 @@
 				4BA19FD02AA0AA39008F33BF /* Solution19.swift in Sources */,
 				4B82BCAB2A1F5DDB00A4E716 /* Solution14.swift in Sources */,
 				4BD1827E2A690F0700333B8A /* Solution88.swift in Sources */,
+				4B0262912C084E4500AE2B3B /* Solution704.swift in Sources */,
 				4B37D1912A8CBD63007E6D13 /* Solution74.swift in Sources */,
 				4B13C75C2BF5E1C30032004B /* Solution198.swift in Sources */,
+				4B02628E2C05AB3D00AE2B3B /* Solution84.swift in Sources */,
 				5B5692782927293200DB792C /* Solution3.swift in Sources */,
+				4B02629B2C0F05CA00AE2B3B /* Solution35.swift in Sources */,
 				4B68FE922A9754CA009FA727 /* Solution905.swift in Sources */,
 				5B56927B292736E500DB792C /* Solution4.swift in Sources */,
 				4B68FE8F2A97519B009FA727 /* Solution20.swift in Sources */,
@@ -580,6 +639,7 @@
 				4B13C75F2BFDC8DC0032004B /* Solution300.swift in Sources */,
 				4B50DA212A6FD9B700DB8FB3 /* Solution739.swift in Sources */,
 				5BE7DF942928CD0D00FFFB3B /* SelectSort.swift in Sources */,
+				4B0262972C0DAFAA00AE2B3B /* Solution278.swift in Sources */,
 				5B5692842927739400DB792C /* BubbleSort.swift in Sources */,
 				4BCADB4D2BF1A6B900BDB948 /* Solution42.swift in Sources */,
 				4BCD93EE2AA99BC300FBA5B3 /* Solution442.swift in Sources */,
