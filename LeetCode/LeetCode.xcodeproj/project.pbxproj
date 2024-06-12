@@ -24,6 +24,8 @@
 		4B68FE8F2A97519B009FA727 /* Solution20.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B68FE8E2A97519B009FA727 /* Solution20.swift */; };
 		4B68FE922A9754CA009FA727 /* Solution905.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B68FE912A9754CA009FA727 /* Solution905.swift */; };
 		4B68FE952A9758C0009FA727 /* Solution69.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B68FE942A9758C0009FA727 /* Solution69.swift */; };
+		4B6DC9682C17ED20008A9C1E /* Solution34.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DC9672C17ED20008A9C1E /* Solution34.swift */; };
+		4B6DC96B2C193C31008A9C1E /* Solution154.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DC96A2C193C31008A9C1E /* Solution154.swift */; };
 		4B82BCAB2A1F5DDB00A4E716 /* Solution14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B82BCAA2A1F5DDB00A4E716 /* Solution14.swift */; };
 		4BA19FCA2AA02E36008F33BF /* Solution876.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FC92AA02E36008F33BF /* Solution876.swift */; };
 		4BA19FCD2AA0A37D008F33BF /* Solution141.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FCC2AA0A37D008F33BF /* Solution141.swift */; };
@@ -87,6 +89,8 @@
 		4B68FE8E2A97519B009FA727 /* Solution20.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution20.swift; sourceTree = "<group>"; };
 		4B68FE912A9754CA009FA727 /* Solution905.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution905.swift; sourceTree = "<group>"; };
 		4B68FE942A9758C0009FA727 /* Solution69.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution69.swift; sourceTree = "<group>"; };
+		4B6DC9672C17ED20008A9C1E /* Solution34.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution34.swift; sourceTree = "<group>"; };
+		4B6DC96A2C193C31008A9C1E /* Solution154.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution154.swift; sourceTree = "<group>"; };
 		4B82BCAA2A1F5DDB00A4E716 /* Solution14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution14.swift; sourceTree = "<group>"; };
 		4BA19FC92AA02E36008F33BF /* Solution876.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution876.swift; sourceTree = "<group>"; };
 		4BA19FCC2AA0A37D008F33BF /* Solution141.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution141.swift; sourceTree = "<group>"; };
@@ -269,6 +273,22 @@
 			path = "69.x的算术平方根";
 			sourceTree = "<group>";
 		};
+		4B6DC9662C17ED05008A9C1E /* 34.在排序数组中查找元素的第一个和最后一个位置 */ = {
+			isa = PBXGroup;
+			children = (
+				4B6DC9672C17ED20008A9C1E /* Solution34.swift */,
+			);
+			path = "34.在排序数组中查找元素的第一个和最后一个位置";
+			sourceTree = "<group>";
+		};
+		4B6DC9692C193C14008A9C1E /* 154.寻找旋转排序数组中的最小值 II */ = {
+			isa = PBXGroup;
+			children = (
+				4B6DC96A2C193C31008A9C1E /* Solution154.swift */,
+			);
+			path = "154.寻找旋转排序数组中的最小值 II";
+			sourceTree = "<group>";
+		};
 		4B82BCA92A1F5DA400A4E716 /* 14.最长公共前缀 */ = {
 			isa = PBXGroup;
 			children = (
@@ -417,6 +437,8 @@
 		5B36B20228C1902C00E14D15 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				4B6DC9692C193C14008A9C1E /* 154.寻找旋转排序数组中的最小值 II */,
+				4B6DC9662C17ED05008A9C1E /* 34.在排序数组中查找元素的第一个和最后一个位置 */,
 				4B0262992C0F05B000AE2B3B /* 35.搜索插入位置 */,
 				4B0262952C0DAF9600AE2B3B /* 278.第一个错误的版本 */,
 				4B0262922C08515900AE2B3B /* 852.山脉数组的峰顶索引 */,
@@ -612,6 +634,7 @@
 				5B36B20C28C1911700E14D15 /* Solution1.swift in Sources */,
 				4BCADB382BE8AED000BDB948 /* Solution.swift in Sources */,
 				5BE7DF972929BEA300FFFB3B /* Solution9.swift in Sources */,
+				4B6DC9682C17ED20008A9C1E /* Solution34.swift in Sources */,
 				4BCADB412BEB54ED00BDB948 /* Solution18.swift in Sources */,
 				4B13C7532BF5A2AC0032004B /* Solution509.swift in Sources */,
 				4BCADB502BF1A71200BDB948 /* Solution232.swift in Sources */,
@@ -643,6 +666,7 @@
 				5B5692842927739400DB792C /* BubbleSort.swift in Sources */,
 				4BCADB4D2BF1A6B900BDB948 /* Solution42.swift in Sources */,
 				4BCD93EE2AA99BC300FBA5B3 /* Solution442.swift in Sources */,
+				4B6DC96B2C193C31008A9C1E /* Solution154.swift in Sources */,
 				5B5692862927835E00DB792C /* ShellSort.swift in Sources */,
 				4BCADB3A2BE8AF2300BDB948 /* Solution15.swift in Sources */,
 				5B36B20F28C1917C00E14D15 /* Solution2.swift in Sources */,

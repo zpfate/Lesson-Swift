@@ -20,8 +20,11 @@ let solution = Solution()
 //print("四数之和: \(Solution.fourSum([2, 2, 2, 2, 2, 2], 8))")
 
 
+// 34. 在排序数组中查找元素的第一个和最后一个位置
+print("34. 在排序数组中查找元素的第一个和最后一个位置:\(solution.searchRange([8,8], 8))")
+
 // 35.搜索插入位置
-print("35.搜索插入位置: \(solution.searchInsert([1,3,5,6], 5))")
+//print("35.搜索插入位置: \(solution.searchInsert([1,3,5,6], 2))")
 
 // [2,1,5,6,2,3]
 // 84. 柱状图中最大的矩形
@@ -38,7 +41,7 @@ print("35.搜索插入位置: \(solution.searchInsert([1,3,5,6], 5))")
 //Solution.productExceptSelf([1, 2, 3, 4])
 
 // 278.第一个错误的版本
-print("278.第一个错误的版本: \(solution.firstBadVersion(1))")
+//print("278.第一个错误的版本: \(solution.firstBadVersion(1))")
 
 
 // 303. 区域和检索 - 数组不可变

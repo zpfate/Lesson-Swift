@@ -12,7 +12,7 @@ func string_handle() -> Void {
     var str = "Hello, World"
     /// 字符串分割
     let strArr = str.split(separator: ",")
-    print("str分割为:\(strArr)")
+    print("\(str)分割为:\(strArr)")
     
     /// 遍历字符串
     for c in str {
