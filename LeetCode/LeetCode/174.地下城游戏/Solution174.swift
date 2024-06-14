@@ -30,5 +30,6 @@ extension Solution {
         // status function:
         // condition:
         // solution:
+        return 0
     }
 }
