@@ -9,7 +9,7 @@ import Foundation
 
 func string_handle() -> Void {
     
-    var str = "Hello, World"
+    let str = "Hello, World"
     /// 字符串分割
     let strArr = str.split(separator: ",")
     print("\(str)分割为:\(strArr)")

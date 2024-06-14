@@ -21,7 +21,7 @@ let solution = Solution()
 
 
 // 34. 在排序数组中查找元素的第一个和最后一个位置
-print("34. 在排序数组中查找元素的第一个和最后一个位置:\(solution.searchRange([8,8], 8))")
+//print("34. 在排序数组中查找元素的第一个和最后一个位置:\(solution.searchRange([8,8], 8))")
 
 // 35.搜索插入位置
 //print("35.搜索插入位置: \(solution.searchInsert([1,3,5,6], 2))")
@@ -32,6 +32,10 @@ print("34. 在排序数组中查找元素的第一个和最后一个位置:\(sol
 
 // 150.逆波兰表达式
 //print("150.逆波兰表达式:\(solution.evalRPN(["4","13","5","/","+"]))")
+
+
+// 154. 寻找旋转排序数组中的最小值 II
+//print("154. 寻找旋转排序数组中的最小值 II: \(solution.findMin([3,4,5,1,2]))")
 
 // 198. 打家劫舍
 //print("198.打家劫舍: \(solution.rob2([ 2, 1,1, 2]))")
@@ -47,6 +51,9 @@ print("34. 在排序数组中查找元素的第一个和最后一个位置:\(sol
 // 303. 区域和检索 - 数组不可变
 //solution.retrieveSum()
 
+
+
+print("======\(solution.maximalSquare([["0","1"],["1","0"]]))")
 // 496. 下一个更大元素 I
 //print("496. 下一个更大元素 I:\(solution.nextGreaterElement([2, 4], [1, 2, 3, 4]))")
 

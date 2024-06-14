@@ -23,7 +23,32 @@ import Foundation
 
 extension Solution {
     
-    func findMin(_ nums: [Int]) -> Int {
+    // 总体来说还是一个升序数组
+    // 旋转完之后 还是两个 部分升序 的段落
+    
+    func findMinTwo(_ nums: [Int]) -> Int {
 
+        var l = 0
+        var r = nums.count - 1
+        
+        if nums[l] < nums[r] {
+            return nums[l]
+        }
+        
+        while l + 1 < r {
+            
+            let mid = l + (r - l) / 2
+            
+            if nums[mid] > nums[l] {
+                l = mid
+            } else {
+                r = mid
+            }
+        }
+        
+        if nums[l] > nums[r] {
+            return nums[r]
+        }
+        return nums[l]
     }
 }

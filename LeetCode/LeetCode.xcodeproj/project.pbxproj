@@ -26,6 +26,10 @@
 		4B68FE952A9758C0009FA727 /* Solution69.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B68FE942A9758C0009FA727 /* Solution69.swift */; };
 		4B6DC9682C17ED20008A9C1E /* Solution34.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DC9672C17ED20008A9C1E /* Solution34.swift */; };
 		4B6DC96B2C193C31008A9C1E /* Solution154.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DC96A2C193C31008A9C1E /* Solution154.swift */; };
+		4B6DC96E2C196EB3008A9C1E /* Solution153.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DC96D2C196EB3008A9C1E /* Solution153.swift */; };
+		4B6DC9702C1977E3008A9C1E /* Solution62.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DC96F2C1977E3008A9C1E /* Solution62.swift */; };
+		4B6DC9732C1C116F008A9C1E /* Solution221.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DC9722C1C116F008A9C1E /* Solution221.swift */; };
+		4B6DC9792C1C1626008A9C1E /* Solution174.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DC9782C1C1626008A9C1E /* Solution174.swift */; };
 		4B82BCAB2A1F5DDB00A4E716 /* Solution14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B82BCAA2A1F5DDB00A4E716 /* Solution14.swift */; };
 		4BA19FCA2AA02E36008F33BF /* Solution876.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FC92AA02E36008F33BF /* Solution876.swift */; };
 		4BA19FCD2AA0A37D008F33BF /* Solution141.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FCC2AA0A37D008F33BF /* Solution141.swift */; };
@@ -91,6 +95,11 @@
 		4B68FE942A9758C0009FA727 /* Solution69.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution69.swift; sourceTree = "<group>"; };
 		4B6DC9672C17ED20008A9C1E /* Solution34.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution34.swift; sourceTree = "<group>"; };
 		4B6DC96A2C193C31008A9C1E /* Solution154.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution154.swift; sourceTree = "<group>"; };
+		4B6DC96D2C196EB3008A9C1E /* Solution153.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution153.swift; sourceTree = "<group>"; };
+		4B6DC96F2C1977E3008A9C1E /* Solution62.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution62.swift; sourceTree = "<group>"; };
+		4B6DC9722C1C116F008A9C1E /* Solution221.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution221.swift; sourceTree = "<group>"; };
+		4B6DC9782C1C1626008A9C1E /* Solution174.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution174.swift; sourceTree = "<group>"; };
+		4B6DC97A2C1C16D8008A9C1E /* ReadMe */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
 		4B82BCAA2A1F5DDB00A4E716 /* Solution14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution14.swift; sourceTree = "<group>"; };
 		4BA19FC92AA02E36008F33BF /* Solution876.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution876.swift; sourceTree = "<group>"; };
 		4BA19FCC2AA0A37D008F33BF /* Solution141.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution141.swift; sourceTree = "<group>"; };
@@ -289,6 +298,39 @@
 			path = "154.寻找旋转排序数组中的最小值 II";
 			sourceTree = "<group>";
 		};
+		4B6DC96C2C196E79008A9C1E /* 153. 寻找旋转排序数组中的最小值 */ = {
+			isa = PBXGroup;
+			children = (
+				4B6DC96D2C196EB3008A9C1E /* Solution153.swift */,
+			);
+			path = "153. 寻找旋转排序数组中的最小值";
+			sourceTree = "<group>";
+		};
+		4B6DC9712C1C1150008A9C1E /* 221.最大正方形 */ = {
+			isa = PBXGroup;
+			children = (
+				4B6DC9722C1C116F008A9C1E /* Solution221.swift */,
+			);
+			path = "221.最大正方形";
+			sourceTree = "<group>";
+		};
+		4B6DC9742C1C158B008A9C1E /* 62.不同路径 */ = {
+			isa = PBXGroup;
+			children = (
+				4B6DC96F2C1977E3008A9C1E /* Solution62.swift */,
+			);
+			path = "62.不同路径";
+			sourceTree = "<group>";
+		};
+		4B6DC9772C1C1610008A9C1E /* 174.地下城游戏 */ = {
+			isa = PBXGroup;
+			children = (
+				4B6DC9782C1C1626008A9C1E /* Solution174.swift */,
+				4B6DC97A2C1C16D8008A9C1E /* ReadMe */,
+			);
+			path = "174.地下城游戏";
+			sourceTree = "<group>";
+		};
 		4B82BCA92A1F5DA400A4E716 /* 14.最长公共前缀 */ = {
 			isa = PBXGroup;
 			children = (
@@ -437,6 +479,9 @@
 		5B36B20228C1902C00E14D15 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				4B6DC9772C1C1610008A9C1E /* 174.地下城游戏 */,
+				4B6DC9742C1C158B008A9C1E /* 62.不同路径 */,
+				4B6DC96C2C196E79008A9C1E /* 153. 寻找旋转排序数组中的最小值 */,
 				4B6DC9692C193C14008A9C1E /* 154.寻找旋转排序数组中的最小值 II */,
 				4B6DC9662C17ED05008A9C1E /* 34.在排序数组中查找元素的第一个和最后一个位置 */,
 				4B0262992C0F05B000AE2B3B /* 35.搜索插入位置 */,
@@ -469,6 +514,7 @@
 				4B13C75A2BF5E1AD0032004B /* 198.打家劫舍1 */,
 				4BCD93EF2AA9D82000FBA5B3 /* 206.反转链表 */,
 				4B13C7572BF5D8E10032004B /* 213.打家劫舍2 */,
+				4B6DC9712C1C1150008A9C1E /* 221.最大正方形 */,
 				4BCADB422BEC99DB00BDB948 /* 238. 除自身以外数组的乘积 */,
 				4B13C75D2BFDC8BF0032004B /* 300.最长递增子序列 */,
 				4BCADB452BEDFBA900BDB948 /* 303.区域和检索-数组不可变 */,
@@ -591,7 +637,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
-				LastUpgradeCheck = 1320;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					5B36B1FF28C1902C00E14D15 = {
 						CreatedOnToolsVersion = 13.2.1;
@@ -627,6 +673,7 @@
 				4BCD93F12AA9D84200FBA5B3 /* Solution206.swift in Sources */,
 				4B0262942C08517800AE2B3B /* Solution852.swift in Sources */,
 				5B56927E292751E300DB792C /* Solution5.swift in Sources */,
+				4B6DC96E2C196EB3008A9C1E /* Solution153.swift in Sources */,
 				4BA19FCA2AA02E36008F33BF /* Solution876.swift in Sources */,
 				4BA19FCD2AA0A37D008F33BF /* Solution141.swift in Sources */,
 				4BCADB442BEC99ED00BDB948 /* Solution238.swift in Sources */,
@@ -663,7 +710,9 @@
 				4B50DA212A6FD9B700DB8FB3 /* Solution739.swift in Sources */,
 				5BE7DF942928CD0D00FFFB3B /* SelectSort.swift in Sources */,
 				4B0262972C0DAFAA00AE2B3B /* Solution278.swift in Sources */,
+				4B6DC9792C1C1626008A9C1E /* Solution174.swift in Sources */,
 				5B5692842927739400DB792C /* BubbleSort.swift in Sources */,
+				4B6DC9702C1977E3008A9C1E /* Solution62.swift in Sources */,
 				4BCADB4D2BF1A6B900BDB948 /* Solution42.swift in Sources */,
 				4BCD93EE2AA99BC300FBA5B3 /* Solution442.swift in Sources */,
 				4B6DC96B2C193C31008A9C1E /* Solution154.swift in Sources */,
@@ -671,6 +720,7 @@
 				4BCADB3A2BE8AF2300BDB948 /* Solution15.swift in Sources */,
 				5B36B20F28C1917C00E14D15 /* Solution2.swift in Sources */,
 				5B56928129275A0300DB792C /* StringExample.swift in Sources */,
+				4B6DC9732C1C116F008A9C1E /* Solution221.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -711,9 +761,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -772,9 +824,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -796,6 +850,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 8X3Q8YY56J;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -807,6 +862,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 8X3Q8YY56J;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
