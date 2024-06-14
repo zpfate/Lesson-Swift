@@ -100,6 +100,7 @@
 		4B6DC9722C1C116F008A9C1E /* Solution221.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution221.swift; sourceTree = "<group>"; };
 		4B6DC9782C1C1626008A9C1E /* Solution174.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution174.swift; sourceTree = "<group>"; };
 		4B6DC97A2C1C16D8008A9C1E /* 174. 地下城游戏.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "174. 地下城游戏.md"; sourceTree = "<group>"; };
+		4B6DC97E2C1C1ADA008A9C1E /* 62. 不同路径.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "62. 不同路径.md"; sourceTree = "<group>"; };
 		4B82BCAA2A1F5DDB00A4E716 /* Solution14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution14.swift; sourceTree = "<group>"; };
 		4BA19FC92AA02E36008F33BF /* Solution876.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution876.swift; sourceTree = "<group>"; };
 		4BA19FCC2AA0A37D008F33BF /* Solution141.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution141.swift; sourceTree = "<group>"; };
@@ -318,6 +319,7 @@
 			isa = PBXGroup;
 			children = (
 				4B6DC96F2C1977E3008A9C1E /* Solution62.swift */,
+				4B6DC97E2C1C1ADA008A9C1E /* 62. 不同路径.md */,
 			);
 			path = "62.不同路径";
 			sourceTree = "<group>";
