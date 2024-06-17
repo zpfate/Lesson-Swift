@@ -69,9 +69,8 @@ print("======\(solution.maximalSquare([["0","1"],["1","0"]]))")
 
 
 
-
 /// ********排序算法 ******
-fileprivate var arr = [10, 2, 5, 3, 6, 1]
+//fileprivate var arr = [10, 2, 5, 3, 6, 1]
 //BubbleSort.sort(arr)
 //print("=============================")
 //BubbleSort.sort2(arr)
@@ -81,8 +80,8 @@ fileprivate var arr = [10, 2, 5, 3, 6, 1]
 //print(SelectSort.sort(arr))
 
 
-var v1: ListNode? = ListNode(9, ListNode(9, ListNode(9, ListNode(9, ListNode(9, ListNode(9))))))
-var v2: ListNode? = ListNode(9, ListNode(9, ListNode(9, ListNode(9))))
+//var v1: ListNode? = ListNode(9, ListNode(9, ListNode(9, ListNode(9, ListNode(9, ListNode(9))))))
+//var v2: ListNode? = ListNode(9, ListNode(9, ListNode(9, ListNode(9))))
 //Solution3.lengthOfLongestSubstring("dvdf")
 
 
@@ -91,7 +90,7 @@ var v2: ListNode? = ListNode(9, ListNode(9, ListNode(9, ListNode(9))))
 //let result = Solution13().romanToInt("V")
 //print(result)
 
-var strs = ["test", "123", "abc", "longest", "prefix", "897"]
+//var strs = ["test", "123", "abc", "longest", "prefix", "897"]
 
 //print(strs.sorted())
 
@@ -99,22 +98,18 @@ var strs = ["test", "123", "abc", "longest", "prefix", "897"]
 //let longestCommonPrefix = Solution14().longestCommonPrefix("")
 
 
-var nums1 = [1, 3, 5,]
-let nums2 = [2, 4, 6,]
+//var nums1 = [1, 3, 5,]
+//let nums2 = [2, 4, 6,]
 //Solution88().mergeAA(&nums1,3,  nums2, 3)
 
 //print(Solution739().dailyTemperatures([73,74,75,71,69,72,76,73]))
 
-let matrix = [[1]], target = 1
+//let matrix = [[1]], target = 1
 
 //print(Solution74().searchMatrix(matrix, target))
-//
-//
 //print(Solution905().sortArrayByParity([3, 1, 2, 4]))
 
 
-
-var v876: ListNode? = ListNode(7, ListNode(2, ListNode(4, ListNode(3))))
-
-var v875: ListNode? = ListNode(5, ListNode(6, ListNode(4)))
+//var v876: ListNode? = ListNode(7, ListNode(2, ListNode(4, ListNode(3))))
+//var v875: ListNode? = ListNode(5, ListNode(6, ListNode(4)))
 
