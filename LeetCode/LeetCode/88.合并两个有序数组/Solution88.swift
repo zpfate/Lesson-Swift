@@ -19,10 +19,68 @@ import Foundation
 
 extension Solution {
     
+    
+    func merge(_ nums1: inout [Int], _ m: Int, _ nums2: [Int], _ n: Int) {
+        
+        var l1 = m - 1
+        var l2 = n - 1
+        
+        while l1 >= 0 || l2 >= 0 {
+            
+            if l2 < 0 || (l1 >= 0 && nums2[l2] < nums1[l1]) {
+                nums1[l1 + l2 + 1] = nums1[l1]
+                l1 -= 1
+            } else {
+                nums1[l1 + l2 + 1] = nums2[l2]
+                l2 -= 1
+            }
+        }
+        
+        print("88. 合并两个有序数组:\(nums1)")
+    }
+    
+    
+    
+    
+//    
+//    
+//    func merge(_ nums1:[Int],_ nums2:[Int]) -> [Int] {
+//        
+//        
+//        if nums1.isEmpty {
+//            return nums2
+//        }
+//        
+//        if nums2.isEmpty {
+//            return nums1
+//        }
+//        
+//        var m = nums1.count
+//        var n = nums2.count
+//        
+//        var res = [Int](repeating: 0, count: m + n)
+//        
+//        while m >= 0 || n >= 0 {
+//            
+//            if m >= 0 && nums1[m] > nums2[n] {
+//                res[m + n - 1] = nums1[m]
+//                m -= 1
+//            } else {
+//                if n >= 0 {
+//                    res[m + n - 1] = nums2[n]
+//                    n -= 1
+//                }
+//            }
+//        }
+//        return res
+//    }
+//    
+    
     func mergeAA(_ nums1: inout [Int], _ m: Int, _ nums2: [Int], _ n: Int) {
         nums1.append(contentsOf: nums2)
         print(nums1.sorted())
     }
+    
 
     func mergeBB(_ nums1: [Int], _ nums2: [Int]) {
         var results = [Int](repeating: 0, count: nums1.count + nums2.count)

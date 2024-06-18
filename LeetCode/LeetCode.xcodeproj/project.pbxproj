@@ -106,6 +106,7 @@
 		4B6DC9812C1C2203008A9C1E /* 2. 两数相加.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "2. 两数相加.md"; sourceTree = "<group>"; };
 		4B6DC9822C1C220C008A9C1E /* 3. 无重复字符的最长子串.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "3. 无重复字符的最长子串.md"; sourceTree = "<group>"; };
 		4B6DC9832C1C221E008A9C1E /* 4. 寻找两个正序数组的中位数.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "4. 寻找两个正序数组的中位数.md"; sourceTree = "<group>"; };
+		4B6DC9842C21164B008A9C1E /* 88. 合并两个有序数组.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "88. 合并两个有序数组.md"; sourceTree = "<group>"; };
 		4B82BCAA2A1F5DDB00A4E716 /* Solution14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution14.swift; sourceTree = "<group>"; };
 		4BA19FC92AA02E36008F33BF /* Solution876.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution876.swift; sourceTree = "<group>"; };
 		4BA19FCC2AA0A37D008F33BF /* Solution141.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution141.swift; sourceTree = "<group>"; };
@@ -463,6 +464,7 @@
 		4BD1827C2A690ED400333B8A /* 88.合并两个有序数组 */ = {
 			isa = PBXGroup;
 			children = (
+				4B6DC9842C21164B008A9C1E /* 88. 合并两个有序数组.md */,
 				4BD1827D2A690F0700333B8A /* Solution88.swift */,
 			);
 			path = "88.合并两个有序数组";

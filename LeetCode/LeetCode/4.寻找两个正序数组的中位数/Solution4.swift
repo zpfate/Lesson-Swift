@@ -34,18 +34,18 @@ extension Solution {
         
         
         
-        
-        var target = 0
-        if nums1[l1] > nums2[r2] {
-            target = nums
-        }
-        
-        
-        while l < r {
-            
-            let mid = l + (r - l) / 2
-            
-        }
+//        
+//        var target = 0
+//        if nums1[l1] > nums2[r2] {
+//            target = nums
+//        }
+//        
+//        
+//        while l < r {
+//            
+//            let mid = l + (r - l) / 2
+//            
+//        }
         
         return 0
         

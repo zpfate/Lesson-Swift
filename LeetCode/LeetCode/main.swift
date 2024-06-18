@@ -30,6 +30,10 @@ let solution = Solution()
 // 84. 柱状图中最大的矩形
 //print("84. 柱状图中最大的矩形: \(solution.largestRectangleArea([2,1,5,6,2,3]))")
 
+// 88. 合并两个有序数组
+var arr1 = [1,2,3,0,0,0]
+let arr2 = [2,5,6]
+solution.merge(&arr1, 3, arr2, 3)
 // 150.逆波兰表达式
 //print("150.逆波兰表达式:\(solution.evalRPN(["4","13","5","/","+"]))")
 
