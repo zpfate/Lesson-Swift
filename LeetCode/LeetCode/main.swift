@@ -16,9 +16,14 @@ let solution = Solution()
 // print(nums)
 
 
+//4.寻找两个正序数组的中位数
+//print("4.寻找两个正序数组的中位数:\(solution.findMedianSortedArrays([1, 3], [2, 4]))")
+
+//14.最长公共前缀
+//print("14.最长公共前缀:\(solution.longestCommonPrefix(["dog","racecar","car"]))")
+
 // 18.四数之和
 //print("四数之和: \(Solution.fourSum([2, 2, 2, 2, 2, 2], 8))")
-
 
 // 34. 在排序数组中查找元素的第一个和最后一个位置
 //print("34. 在排序数组中查找元素的第一个和最后一个位置:\(solution.searchRange([8,8], 8))")
@@ -48,13 +53,12 @@ solution.merge(&arr1, 3, arr2, 3)
 // 238.除自身以外数组的乘积
 //Solution.productExceptSelf([1, 2, 3, 4])
 
-// 278.第一个错误的版本
+// 278. 第一个错误的版本
 //print("278.第一个错误的版本: \(solution.firstBadVersion(1))")
 
 
 // 303. 区域和检索 - 数组不可变
 //solution.retrieveSum()
-
 
 
 print("======\(solution.maximalSquare([["0","1"],["1","0"]]))")
@@ -66,11 +70,8 @@ print("======\(solution.maximalSquare([["0","1"],["1","0"]]))")
 //print("704.二分查找: \(solution.search([-1,0,3,5,9,12], 13))")
 
 
-
 // 1588.所有奇数长度子数组的和
 //print("1588: \(solution.sumOddLengthSubarrays([1,4,2,5,3]))")
-
-
 
 
 /// ********排序算法 ******
@@ -117,3 +118,8 @@ print("======\(solution.maximalSquare([["0","1"],["1","0"]]))")
 //var v876: ListNode? = ListNode(7, ListNode(2, ListNode(4, ListNode(3))))
 //var v875: ListNode? = ListNode(5, ListNode(6, ListNode(4)))
 
+
+
+
+
+canPartition([1, 5, 10, 6])

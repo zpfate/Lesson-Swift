@@ -15,40 +15,41 @@ extension Solution {
     
     func findMedianSortedArrays(_ nums1: [Int], _ nums2: [Int]) -> Double {
         
-        
         // 思路:
         // 因为是log(m+n) 猜测是二分查找, 数组 + target
         // 所以应该是nums1和nums2都需要二分查找
-        // 如果遍历nums1,
+        // 如果遍历nums1
         
+        // O(m + n)
+        let res = merge(nums1, nums2)
+        let count = nums1.count + nums2.count
         
+        if count % 2 == 0  {
+            return Double((res[count / 2] + res[count / 2 - 1])) / 2.0
+        }
         
-        var l1 = 0
-        var r1 = nums1.count - 1
+        return Double(res[count / 2])
+    }
+    
+    
+    func merge(_ nums1: [Int], _ nums2: [Int]) -> [Int] {
         
-        var l2 = 0
-        var r2 = nums2.count - 1
+        // m和n写成下标
+        var m = nums1.count - 1
+        var n = nums2.count - 1
         
-        
-        
-        
-        
-        
-//        
-//        var target = 0
-//        if nums1[l1] > nums2[r2] {
-//            target = nums
-//        }
-//        
-//        
-//        while l < r {
-//            
-//            let mid = l + (r - l) / 2
-//            
-//        }
-        
-        return 0
-        
+        var res = [Int](repeating: 0, count: m + n + 2)
+        while m >= 0 || n >= 0 {
+            
+            if n < 0 || (m >= 0 && nums1[m] > nums2[n]) {
+                res[m + n + 1] = nums1[m]
+                m -= 1
+            } else {
+                res[m + n + 1] = nums2[n]
+                n -= 1
+            }
+        }
+        return res
     }
     
 }

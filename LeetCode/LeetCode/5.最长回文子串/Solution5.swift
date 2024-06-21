@@ -12,21 +12,24 @@ import Foundation
 extension Solution {
     
     func longestPalindrome(_ s: String) -> String {
-       
-        var arr:[Character] = []
-        for i in 0..<s.count {
-            let prefix = s[s.index(s.startIndex, offsetBy: i)]
-            let suffixIndex = s.index(s.endIndex, offsetBy: -(i+1))
-            let suffix = s[suffixIndex]
-            if arr.contains(prefix) {
-                return String(s[s.firstIndex(of: prefix)!...s.lastIndex(of: prefix)!])
-            }
-            arr.append(prefix)
-            if arr.contains(suffix) {
-                return String(s[s.firstIndex(of: suffix)!...s.lastIndex(of: suffix)!])
-            }
-            arr.append(suffix)
+        
+        var l = 0
+        var r = s.count - 1
+        
+        while l != r {
+            
+            
         }
         return ""
+    }
+    
+    
+    func checkIsPalindrome(_ l: Int, _ r: Int) -> Bool {
+        
+        var s = [Int]()
+        for i in s.reversed() {
+            
+        }
+        return false
     }
 }
