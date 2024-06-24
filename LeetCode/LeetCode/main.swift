@@ -122,4 +122,6 @@ print("======\(solution.maximalSquare([["0","1"],["1","0"]]))")
 
 
 
-canPartition([1, 5, 10, 6])
+//canPartition([1, 5, 10, 6])
+
+print("当前借\(solution.detectCapitalUse("FkkLG"))")

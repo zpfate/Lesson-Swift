@@ -9,7 +9,6 @@ import Foundation
 /**
  LCP 61. 气温变化趋势
  https://leetcode.cn/problems/6CE719/description/
- 
  */
 
 extension Solution {

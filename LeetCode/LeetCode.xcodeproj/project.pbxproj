@@ -32,6 +32,7 @@
 		4B6DC9792C1C1626008A9C1E /* Solution174.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DC9782C1C1626008A9C1E /* Solution174.swift */; };
 		4B6DC9882C226FF6008A9C1E /* Solution416.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DC9872C226FF6008A9C1E /* Solution416.swift */; };
 		4B6DC98B2C255FAB008A9C1E /* SolutionLCP61.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DC98A2C255FAB008A9C1E /* SolutionLCP61.swift */; };
+		4B6DC9902C2824F0008A9C1E /* Solution520.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DC98F2C2824F0008A9C1E /* Solution520.swift */; };
 		4B82BCAB2A1F5DDB00A4E716 /* Solution14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B82BCAA2A1F5DDB00A4E716 /* Solution14.swift */; };
 		4BA19FCA2AA02E36008F33BF /* Solution876.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FC92AA02E36008F33BF /* Solution876.swift */; };
 		4BA19FCD2AA0A37D008F33BF /* Solution141.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FCC2AA0A37D008F33BF /* Solution141.swift */; };
@@ -114,6 +115,8 @@
 		4B6DC9892C23D0CA008A9C1E /* 5. 最长回文子串.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "5. 最长回文子串.md"; sourceTree = "<group>"; };
 		4B6DC98A2C255FAB008A9C1E /* SolutionLCP61.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionLCP61.swift; sourceTree = "<group>"; };
 		4B6DC98D2C25605C008A9C1E /* LCP 61. 气温变化趋势.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "LCP 61. 气温变化趋势.md"; sourceTree = "<group>"; };
+		4B6DC98F2C2824F0008A9C1E /* Solution520.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution520.swift; sourceTree = "<group>"; };
+		4B6DC9912C28FEE7008A9C1E /* 520. 检测大写字母.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "520. 检测大写字母.md"; sourceTree = "<group>"; };
 		4B82BCAA2A1F5DDB00A4E716 /* Solution14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution14.swift; sourceTree = "<group>"; };
 		4BA19FC92AA02E36008F33BF /* Solution876.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution876.swift; sourceTree = "<group>"; };
 		4BA19FCC2AA0A37D008F33BF /* Solution141.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution141.swift; sourceTree = "<group>"; };
@@ -364,6 +367,15 @@
 			path = "LCP61.气温变化趋势";
 			sourceTree = "<group>";
 		};
+		4B6DC98E2C2824E0008A9C1E /* 520. 检测大写字母 */ = {
+			isa = PBXGroup;
+			children = (
+				4B6DC9912C28FEE7008A9C1E /* 520. 检测大写字母.md */,
+				4B6DC98F2C2824F0008A9C1E /* Solution520.swift */,
+			);
+			path = "520. 检测大写字母";
+			sourceTree = "<group>";
+		};
 		4B82BCA92A1F5DA400A4E716 /* 14.最长公共前缀 */ = {
 			isa = PBXGroup;
 			children = (
@@ -514,6 +526,7 @@
 		5B36B20228C1902C00E14D15 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				4B6DC98E2C2824E0008A9C1E /* 520. 检测大写字母 */,
 				4B6DC98C2C255FB2008A9C1E /* LCP61.气温变化趋势 */,
 				4B6DC9862C226FDD008A9C1E /* 416. 分割等和子集 */,
 				4BCADB3B2BE8B6B000BDB948 /* 0.排序 */,
@@ -754,6 +767,7 @@
 				4B50DA212A6FD9B700DB8FB3 /* Solution739.swift in Sources */,
 				5BE7DF942928CD0D00FFFB3B /* SelectSort.swift in Sources */,
 				4B0262972C0DAFAA00AE2B3B /* Solution278.swift in Sources */,
+				4B6DC9902C2824F0008A9C1E /* Solution520.swift in Sources */,
 				4B6DC9792C1C1626008A9C1E /* Solution174.swift in Sources */,
 				5B5692842927739400DB792C /* BubbleSort.swift in Sources */,
 				4B6DC9702C1977E3008A9C1E /* Solution62.swift in Sources */,

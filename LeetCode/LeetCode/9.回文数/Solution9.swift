@@ -13,22 +13,22 @@ import Foundation
  */
 
 extension Solution {
-    func isPalindrome(_ x: Int) -> Bool {
-        guard x > 0 else { return false }
-     
-        // 1 2 3 4 5
-        let string: String = "\(x)"
-        for i in 0..<string.count {
-            let last = string.count - 1 - i
-            let suffix = string[last]
-            if last == i || (last+1) == i {
-                break
-            }
-            /// 如果两者不相等
-            if string[i] != suffix {
-                return false
-            }
-        }
-        return true
-    }
+//    func isPalindrome(_ x: Int) -> Bool {
+//        guard x > 0 else { return false }
+//     
+//        // 1 2 3 4 5
+//        let string: String = "\(x)"
+//        for i in 0..<string.count {
+//            let last = string.count - 1 - i
+//            let suffix = string[last]
+//            if last == i || (last+1) == i {
+//                break
+//            }
+//            /// 如果两者不相等
+//            if string[i] != suffix {
+//                return false
+//            }
+//        }
+//        return true
+//    }
 }
