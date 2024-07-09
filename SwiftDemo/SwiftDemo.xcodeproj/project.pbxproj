@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5B1A82F728AF9082004EC7E9 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1A82F628AF9082004EC7E9 /* Solution.swift */; };
+		4B6DC9D12C3BBE16008A9C1E /* ClosureTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DC9D02C3BBE16008A9C1E /* ClosureTest.swift */; };
+		4B6DC9D32C3BD8F8008A9C1E /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DC9D22C3BD8F8008A9C1E /* Person.swift */; };
 		5B88F88027698B4300BFF650 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B88F87F27698B4300BFF650 /* main.swift */; };
 		5B88F88727698B8400BFF650 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B88F88627698B8400BFF650 /* Animal.swift */; };
 		5B88F88927698C2000BFF650 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B88F88827698C2000BFF650 /* Vehicle.swift */; };
@@ -28,7 +29,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5B1A82F628AF9082004EC7E9 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+		4B6DC9D02C3BBE16008A9C1E /* ClosureTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureTest.swift; sourceTree = "<group>"; };
+		4B6DC9D22C3BD8F8008A9C1E /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		5B88F87C27698B4300BFF650 /* SwiftDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B88F87F27698B4300BFF650 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		5B88F88627698B8400BFF650 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
@@ -48,6 +50,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B6DC9CF2C3BBDF1008A9C1E /* closure */ = {
+			isa = PBXGroup;
+			children = (
+				4B6DC9D02C3BBE16008A9C1E /* ClosureTest.swift */,
+			);
+			path = closure;
+			sourceTree = "<group>";
+		};
 		5B88F87327698B4300BFF650 = {
 			isa = PBXGroup;
 			children = (
@@ -67,11 +77,12 @@
 		5B88F87E27698B4300BFF650 /* SwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4B6DC9CF2C3BBDF1008A9C1E /* closure */,
 				5B88F87F27698B4300BFF650 /* main.swift */,
 				5B88F88627698B8400BFF650 /* Animal.swift */,
 				5B88F88827698C2000BFF650 /* Vehicle.swift */,
-				5B1A82F628AF9082004EC7E9 /* Solution.swift */,
 				5B88F88A27698CC900BFF650 /* Protocol */,
+				4B6DC9D22C3BD8F8008A9C1E /* Person.swift */,
 			);
 			path = SwiftDemo;
 			sourceTree = "<group>";
@@ -144,9 +155,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B88F88E27698DA200BFF650 /* Eagle.swift in Sources */,
+				4B6DC9D12C3BBE16008A9C1E /* ClosureTest.swift in Sources */,
 				5B88F88027698B4300BFF650 /* main.swift in Sources */,
-				5B1A82F728AF9082004EC7E9 /* Solution.swift in Sources */,
 				5B88F88727698B8400BFF650 /* Animal.swift in Sources */,
+				4B6DC9D32C3BD8F8008A9C1E /* Person.swift in Sources */,
 				5B88F88927698C2000BFF650 /* Vehicle.swift in Sources */,
 				5B88F88C27698CE500BFF650 /* Flyable.swift in Sources */,
 			);
@@ -274,7 +286,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 83J8888V77;
+				DEVELOPMENT_TEAM = QNMCTRKH9M;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -285,7 +297,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 83J8888V77;
+				DEVELOPMENT_TEAM = QNMCTRKH9M;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
